@@ -5,11 +5,13 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 1_4
-  m_Shader: {fileID: 4800000, guid: 748944cb1fe5a7c4d902e55e6cca5677, type: 3}
+  m_Shader: {fileID: 4800000, guid: 26666ed61e16c4749bfe5ebac4decd8e, type: 3}
   m_ShaderKeywords: _DISSOLVEALPHASOURCE_TWO_CUSTOM_MAPS _DISSOLVEALPHATEXTUREBLEND_MULTIPLY
-    _DISSOLVECUTOFFMETHOD_DEFAULT _DISSOLVEMASK_NONE _DISSOLVENOISESOURCE_TWO_CUSTOM_MAPS
+    _DISSOLVECUTOFFMETHOD_DEFAULT _DISSOLVEEDGETEXTURESOURCE_NONE _DISSOLVEGLOBALCONTROL_NONE
+    _DISSOLVEMAPPINGTYPE_NORMAL _DISSOLVEMASKCOUNT_ONE _DISSOLVEMASK_NONE _DISSOLVENOISESOURCE_TWO_CUSTOM_MAPS
     _DISSOLVENOISETEXTUREBLEND_MULTIPLY _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
@@ -62,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 98ecbb15751a980488f1d0dccda53c2b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:

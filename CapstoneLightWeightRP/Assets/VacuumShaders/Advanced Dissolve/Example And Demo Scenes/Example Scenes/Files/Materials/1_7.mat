@@ -4,10 +4,11 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 1_7
-  m_Shader: {fileID: 4800000, guid: 26666ed61e16c4749bfe5ebac4decd8e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_ShaderKeywords: _DISSOLVEALPHASOURCE_TWO_CUSTOM_MAPS _DISSOLVEALPHATEXTUREBLEND_ADD
     _DISSOLVECUTOFFMETHOD_DEFAULT _DISSOLVEEDGECOLORISSOLID_ON _DISSOLVEEDGEDISTORTIONSOURCE_CUTOUT_SOURCE
     _DISSOLVEEDGETEXTURESOURCE_MAIN_MAP _DISSOLVEGLOBALCONTROL_NONE _DISSOLVEMAPPINGTYPE_SCREEN_SPACE
@@ -17,8 +18,7 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: AdvancedDissolveCutout
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -84,6 +84,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
     - _BumpScale: 1
     - _Cull: 0
     - _Cutoff: 0
@@ -100,6 +102,7 @@ Material:
     - _DissolveEdgeColorIsSolid: 1
     - _DissolveEdgeDistortionSource: 0
     - _DissolveEdgeDistortionStrength: 0
+    - _DissolveEdgeShape: 0
     - _DissolveEdgeSize: 0.1
     - _DissolveEdgeTextureAlphaOffset: 0
     - _DissolveEdgeTextureIsDynamic: 0
@@ -111,6 +114,7 @@ Material:
     - _DissolveGIMultiplier: 0.7
     - _DissolveGIStrength: 1.5
     - _DissolveGlobalControl: 0
+    - _DissolveMainMapTiling: 1
     - _DissolveMap1_Invert: 0
     - _DissolveMap1_Strength: 1
     - _DissolveMap2_Invert: 0
@@ -146,11 +150,14 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _ReceiveShadows: 1
     - _Shininess: 0.7
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Surface: 0
     - _UVSec: 0
+    - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}

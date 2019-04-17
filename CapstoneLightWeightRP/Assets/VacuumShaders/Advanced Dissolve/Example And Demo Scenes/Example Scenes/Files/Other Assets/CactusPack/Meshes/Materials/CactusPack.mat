@@ -5,12 +5,13 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: CactusPack
-  m_Shader: {fileID: 4800000, guid: 0eb4419a161c539409c94325c8e86336, type: 3}
-  m_ShaderKeywords: _DISSOLVEALPHASOURCE_CUSTOM_MAP _DISSOLVEEDGECOLORISSOLID_ON _DISSOLVEEDGEDISTORTIONSOURCE_CUTOUT_SOURCE
+  m_Shader: {fileID: 4800000, guid: 26666ed61e16c4749bfe5ebac4decd8e, type: 3}
+  m_ShaderKeywords: _DISSOLVEALPHASOURCE_CUSTOM_MAP _DISSOLVEEDGETEXTURESOURCE_NONE
     _DISSOLVEGLOBALCONTROL_NONE _DISSOLVEMAPPINGTYPE_TRIPLANAR _DISSOLVEMASKCOUNT_ONE
-    _DISSOLVEMASK_PLANE _NORMALMAP
+    _DISSOLVEMASK_SPHERE _GLOSSINESS_FROM_BASE_ALPHA _NORMALMAP _SPECULAR_COLOR
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -81,6 +82,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
     - _BumpScale: 1
     - _Cull: 0
     - _Cutoff: 0
@@ -105,12 +108,12 @@ Material:
     - _DissolveGlobalControl: 0
     - _DissolveMainMapTiling: 1
     - _DissolveMappingType: 1
-    - _DissolveMask: 2
+    - _DissolveMask: 3
     - _DissolveMaskAxis: 1
     - _DissolveMaskCount: 0
     - _DissolveMaskInvert: -1
     - _DissolveMaskOffset: 1.5
-    - _DissolveMaskRadius: 5.5423665
+    - _DissolveMaskRadius: 2.5
     - _DissolveMaskSpace: 0
     - _DissolveNoiseStrength: 0
     - _DissolveSourceAlphaTexturesBlend: 0
@@ -119,16 +122,21 @@ Material:
     - _DstBlend: 0
     - _GlossMapScale: 0
     - _Glossiness: 0.22
+    - _GlossinessSource: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _ReceiveShadows: 1
+    - _Shininess: 0.078125
     - _SmoothnessTextureChannel: 0
+    - _SpecSource: 0
     - _Specular: 0
     - _SpecularAlpha: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Surface: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

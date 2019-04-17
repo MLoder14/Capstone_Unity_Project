@@ -4,20 +4,20 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 1_1
-  m_Shader: {fileID: 4800000, guid: 748944cb1fe5a7c4d902e55e6cca5677, type: 3}
+  m_Shader: {fileID: 4800000, guid: 3ac30505729564249973dfc428f1c8fc, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _DISSOLVEALPHASOURCE_TWO_CUSTOM_MAPS _DISSOLVEALPHATEXTUREBLEND_ADD
-    _DISSOLVECUTOFFMETHOD_DEFAULT _DISSOLVEMAPPINGTYPE_NORMAL _DISSOLVEMASKMETHOD_NONE
-    _DISSOLVEMASK_NONE _DISSOLVENOISESOURCE_TWO_CUSTOM_MAPS _DISSOLVENOISETEXTUREBLEND_ADD
-    _EMISSION
+    _DISSOLVECUTOFFMETHOD_DEFAULT _DISSOLVEEDGETEXTURESOURCE_NONE _DISSOLVEGLOBALCONTROL_NONE
+    _DISSOLVEMAPPINGTYPE_NORMAL _DISSOLVEMASKCOUNT_ONE _DISSOLVEMASKMETHOD_NONE _DISSOLVEMASK_NONE
+    _DISSOLVENOISESOURCE_TWO_CUSTOM_MAPS _DISSOLVENOISETEXTUREBLEND_ADD _EMISSION
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
-  stringTagMap:
-    RenderType: AdvancedDissolveCutout
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -70,6 +70,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -99,6 +103,7 @@ Material:
     - _DissolveEdgeColorIsSolid: 0
     - _DissolveEdgeDistortionSource: 0
     - _DissolveEdgeDistortionStrength: 0
+    - _DissolveEdgeShape: 0
     - _DissolveEdgeSize: 0.1
     - _DissolveEdgeTextureAlphaOffset: 0
     - _DissolveEdgeTextureIsDynamic: 0
@@ -110,6 +115,7 @@ Material:
     - _DissolveGIMultiplier: 1
     - _DissolveGIStrength: 1.5
     - _DissolveGlobalControl: 0
+    - _DissolveMainMapTiling: 1
     - _DissolveMap1_Invert: 0
     - _DissolveMap1_Strength: 0.01
     - _DissolveMap2_Invert: 0
@@ -142,6 +148,7 @@ Material:
     - _GlossyReflections: 1
     - _MainTexCutoff: 0
     - _Metallic: 1
+    - _MetallicAlpha: 0
     - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
