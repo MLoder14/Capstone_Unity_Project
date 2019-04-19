@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: eb96bb9a166e27f44a4567f3c8c208d3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: biplano_last:Left_Front_Wheel
+    100002: biplano_last:pCylinder38
+    100004: biplano_last:wheels
+    100006: flaps_biplane_last1:pCube7
+    100008: flaps_biplane_last:pCube7
+    100010: group
+    100012: pasted__polySurface4
+    100014: pasted__polySurface6
+    100016: pasted__polySurface7
+    100018: pasted__transform2
+    100020: pCylinder15
+    100022: pCylinder16
+    100024: pCylinder3
+    100026: Plane
+    100028: //RootNode
+    100030: polySurface2
+    100032: polySurface3
+    100034: polySurface4
+    100036: polySurface6
+    100038: polySurface7
+    100040: prop_biplane_last1:polySurface27
+    100042: Screw29
+    100044: transform1
+    100046: transform2
+    400000: biplano_last:Left_Front_Wheel
+    400002: biplano_last:pCylinder38
+    400004: biplano_last:wheels
+    400006: flaps_biplane_last1:pCube7
+    400008: flaps_biplane_last:pCube7
+    400010: group
+    400012: pasted__polySurface4
+    400014: pasted__polySurface6
+    400016: pasted__polySurface7
+    400018: pasted__transform2
+    400020: pCylinder15
+    400022: pCylinder16
+    400024: pCylinder3
+    400026: //RootNode
+    400028: Plane
+    400030: polySurface2
+    400032: polySurface3
+    400034: polySurface4
+    400036: polySurface6
+    400038: polySurface7
+    400040: prop_biplane_last1:polySurface27
+    400042: Screw29
+    400044: transform1
+    400046: transform2
+    2100000: Wheels
+    2100002: Pistons
+    2100004: Yoke
+    2100006: CowlPlate
+    2100008: Screws
+    2100010: Struts
+    2100012: SmStruts
+    2100014: Strobe
+    2100016: Legs
+    2100018: Cowl
+    2100020: Body
+    2100022: Plate
+    2100024: Belly
+    2100026: HeadRest
+    2100028: LowWing
+    2100030: UpperWing
+    2100032: Strobes
+    2100034: Muffler
+    2100036: Door
+    2100038: Bars
+    2100040: Propeller
+    2100042: Aileron
+    2100044: Aelerons
+    2300000: biplano_last:Left_Front_Wheel
+    2300002: biplano_last:pCylinder38
+    2300004: pasted__polySurface4
+    2300006: pasted__polySurface6
+    2300008: pasted__polySurface7
+    2300010: pCylinder15
+    2300012: pCylinder16
+    2300014: pCylinder3
+    2300016: polySurface2
+    2300018: polySurface3
+    2300020: polySurface4
+    2300022: polySurface6
+    2300024: polySurface7
+    2300026: prop_biplane_last1:polySurface27
+    2300028: Screw29
+    3300000: biplano_last:Left_Front_Wheel
+    3300002: biplano_last:pCylinder38
+    3300004: pasted__polySurface4
+    3300006: pasted__polySurface6
+    3300008: pasted__polySurface7
+    3300010: pCylinder15
+    3300012: pCylinder16
+    3300014: pCylinder3
+    3300016: polySurface2
+    3300018: polySurface3
+    3300020: polySurface4
+    3300022: polySurface6
+    3300024: polySurface7
+    3300026: prop_biplane_last1:polySurface27
+    3300028: Screw29
+    4300000: polySurface2
+    4300002: biplano_last:Left_Front_Wheel
+    4300004: pCylinder16
+    4300006: pCylinder15
+    4300008: Screw29
+    4300010: pCylinder3
+    4300012: biplano_last:pCylinder38
+    4300014: pasted__polySurface7
+    4300016: prop_biplane_last1:polySurface27
+    4300018: pasted__polySurface6
+    4300020: pasted__polySurface4
+    4300022: polySurface7
+    4300024: polySurface6
+    4300026: polySurface3
+    4300028: polySurface4
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

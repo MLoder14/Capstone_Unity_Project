@@ -1,0 +1,88 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "BodyBaseSG": {
+            "shader": "Main shader"
+        },
+        "BodyBorderSG": {
+            "shader": "Main shader"
+        },
+        "BodyHingeSG": {
+            "shader": "Main shader"
+        },
+        "DoorBodySG": {
+            "shader": "Main shader"
+        },
+        "GoldTrim": {
+            "shader": "Main shader"
+        },
+        "HandlesBaseSG": {
+            "shader": "Main shader"
+        },
+        "HandlesSG": {
+            "shader": "Main shader"
+        },
+        "LanternBodySG": {
+            "shader": "Main shader"
+        },
+        "Lense": {
+            "shader": "Main shader"
+        },
+        "LenseBodySG": {
+            "shader": "Main shader"
+        },
+        "LenseBorder": {
+            "shader": "Main shader"
+        },
+        "OilHolderSG": {
+            "shader": "Main shader"
+        },
+        "SilverTrim": {
+            "shader": "Main shader"
+        },
+        "Top": {
+            "shader": "Main shader"
+        },
+        "TopFlange": {
+            "shader": "Main shader"
+        },
+        "initialShadingGroup": {
+            "shader": "Main shader"
+        },
+        "lambert2SG": {
+            "shader": "Main shader"
+        }
+    }
+}
