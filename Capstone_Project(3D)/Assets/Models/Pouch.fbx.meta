@@ -27,7 +27,22 @@ ModelImporter:
     7400000: Take 001
     9500000: //RootNode
     13700000: polySurface5
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface1
+    second: {fileID: 2100000, guid: ccfee7d58202f4145ac4c24daa576c49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface2
+    second: {fileID: 2100000, guid: c8e7a0105f2d88c42bc4f5f42c7bcc33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 60eb2151da1dc274b8221c8ebad0dc6d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
