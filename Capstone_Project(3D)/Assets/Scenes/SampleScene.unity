@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.18005839, g: 0.1827761, b: 0.21145386, a: 1}
+  m_IndirectSpecularColor: {r: 0.18005797, g: 0.18277234, b: 0.21145561, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -406,21 +406,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.009008532, y: 0.011392277, z: 0.0060615977}
-  m_Center: {x: 0.00023924894, y: 0.00001468089, z: -0.0024358789}
---- !u!114 &202905375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 202905369}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b0cb8213ba70c340a407596e483d7df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pouch: {fileID: 0}
+  m_Size: {x: 0.009008532, y: 0.011392277, z: 0.011715313}
+  m_Center: {x: 0.00023925185, y: 0.0000146808125, z: -0.0052627246}
 --- !u!4 &229258838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 487818, guid: 7737647c22c1fc64a88d5cd030c352ce,
@@ -451,7 +438,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ddfe57d7df23bb4194545522571cc36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pouch: {fileID: 202905369}
 --- !u!4 &509218678 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d2d64c08bc6fac540ab11e3d08e9de76,
@@ -1027,6 +1013,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Pouch
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f16d2327c97043040895e07b9893ad9a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 645d4a8dac10fbd4e9d8e4af9b5c07ae, type: 2}
     - target: {fileID: 400000, guid: f16d2327c97043040895e07b9893ad9a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90
@@ -1107,10 +1097,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 9.015922
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: f16d2327c97043040895e07b9893ad9a, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 645d4a8dac10fbd4e9d8e4af9b5c07ae, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f16d2327c97043040895e07b9893ad9a, type: 3}
 --- !u!1001 &1988613032
@@ -1128,6 +1114,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Pouch
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f16d2327c97043040895e07b9893ad9a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 645d4a8dac10fbd4e9d8e4af9b5c07ae, type: 2}
     - target: {fileID: 400012, guid: f16d2327c97043040895e07b9893ad9a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.925
@@ -1184,10 +1174,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 27.809
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: f16d2327c97043040895e07b9893ad9a, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 645d4a8dac10fbd4e9d8e4af9b5c07ae, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f16d2327c97043040895e07b9893ad9a, type: 3}
 --- !u!4 &2085332455 stripped
