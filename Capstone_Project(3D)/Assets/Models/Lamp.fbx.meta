@@ -19,7 +19,57 @@ ModelImporter:
     3300000: //RootNode
     4300000: pCylinder10
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyBase
+    second: {fileID: 2100000, guid: 8d92a653ea2dbef48b8147f8ae1f66f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyBorder
+    second: {fileID: 2100000, guid: 5723047d897960f46ad3043298475cff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BodyHinge
+    second: {fileID: 2100000, guid: 24f4b475901114249a8c07adfb767072, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handles
+    second: {fileID: 2100000, guid: b3fd8d2e211e3f5439be1d932efd3b8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HandlesBase
+    second: {fileID: 2100000, guid: 1b2d7c86686a4ec4cb2b29f5523720d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LanternBody
+    second: {fileID: 2100000, guid: b2a156953ebab934bb2a535a3c254539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OilHolder
+    second: {fileID: 2100000, guid: dc5d755d9a926994b81e5010ab49ab16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface6
+    second: {fileID: 2100000, guid: e3329e15d13fc1f40a2e739c7441a48e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface7
+    second: {fileID: 2100000, guid: 93e6ce6e4526ba348b7405d18bb29304, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 927d3ad2f7ded5941b865326a6593c67, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

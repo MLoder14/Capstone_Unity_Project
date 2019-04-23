@@ -16,7 +16,37 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCylinder8
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorBody
+    second: {fileID: 2100000, guid: 2a82fcc691060be44a84d23a93471904, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorBody1
+    second: {fileID: 2100000, guid: 7269aa23eea849e4aa2b707ebdfaee36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LenseBody
+    second: {fileID: 2100000, guid: 233a812fe7b0f5e488da7fa80d15083a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface1
+    second: {fileID: 2100000, guid: e3d998949e743ed43af822d6453a0475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface2
+    second: {fileID: 2100000, guid: 6cec7ab60f70e97408df017619da4ec3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface4
+    second: {fileID: 2100000, guid: 8bf1eeb69a549484caeb4abb8ca5a377, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

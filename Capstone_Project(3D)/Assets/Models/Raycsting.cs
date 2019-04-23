@@ -7,7 +7,7 @@ public class Raycsting : MonoBehaviour
     // access the collider object from the raycassting
     //use that to change that specific pouch bool.
     public GameObject pouch;
-    public Animator pouchAnimator;
+    //public Animator pouchAnimator;
 
     // Start is called before the first frame update
     void Start()
@@ -28,12 +28,16 @@ public class Raycsting : MonoBehaviour
         {
             theDistance = hit.distance;
             print(theDistance + " " + hit.collider.gameObject.name);
+
+            if (hit.collider.gameObject.tag == "Pouch")
+            {
+                hit.collider.gameObject.GetComponent<Animator>().SetBool("Open", true);
+            }
+            else if (hit.collider.gameObject.tag != "Pouch")
+            {
+                hit.collider.gameObject.GetComponent<Animator>().SetBool("Open", false);
+            }
         }
-        if (hit.collider.gameObject.name == "pouch")
-        {
-            pouchAnimator.SetBool("Open", true);
-        }
-        else
-            pouchAnimator.SetBool("Open", false);
+
     }
 }
