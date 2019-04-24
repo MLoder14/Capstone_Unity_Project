@@ -1,14 +1,16 @@
 fileFormatVersion: 2
-guid: 32534b3e257dc4aa4a46ad3b126483a8
+guid: 88bc1b51668a87d4bbb9eab956c14157
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: MeshCave_2
     400000: //RootNode
-    2100000: lambert_Treebark
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Mesh_Tree
+    400002: MeshCave_2
+    2100000: MeshCave_2Mat
+    2300000: MeshCave_2
+    3300000: MeshCave_2
+    4300000: MeshCave_2
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:

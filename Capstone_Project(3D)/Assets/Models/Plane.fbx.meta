@@ -119,7 +119,122 @@ ModelImporter:
     4300024: polySurface6
     4300026: polySurface3
     4300028: polySurface4
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aelerons
+    second: {fileID: 2100000, guid: a6e9c8a515bc4f946a0677d22b6534e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Aileron
+    second: {fileID: 2100000, guid: 052a5bfe238406f4f952ae3ba85b4be5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bars
+    second: {fileID: 2100000, guid: 47e5040d55837014dacec98ab63ccc77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belly
+    second: {fileID: 2100000, guid: 9524266b48c2c3d4085ece0a21ad5f1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body
+    second: {fileID: 2100000, guid: 34098de5881984746ab1717bf862587f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cowl
+    second: {fileID: 2100000, guid: 3a9f364eb8e7c1243ba391cd6075fbe1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CowlPlate
+    second: {fileID: 2100000, guid: 74607b3116fe78442943c04f1aa51434, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: c6eefdee894e9964ea686461ffb82b76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadRest
+    second: {fileID: 2100000, guid: e1840b5e49c5db14fa725a550b8fe4da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Legs
+    second: {fileID: 2100000, guid: caf4e77860916d047aea9e5757a9059c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LowWing
+    second: {fileID: 2100000, guid: 976c4abd0a7630c49b3a2d02356576b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Muffler
+    second: {fileID: 2100000, guid: 3a4e932088576c648bcf8314938a63c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pistons
+    second: {fileID: 2100000, guid: f58e5883e13b8ee4ba912e548099bab3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plate
+    second: {fileID: 2100000, guid: db7bdfceb0280b44baeeb3f7914c1985, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Propeller
+    second: {fileID: 2100000, guid: 6c96acc226621e84bbda44a8badb8439, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screws
+    second: {fileID: 2100000, guid: f446d527988cbc9479db1a1579b9bddc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmStruts
+    second: {fileID: 2100000, guid: 901b7a6622b34d74f9e228a6e41ba91c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strobe
+    second: {fileID: 2100000, guid: d5f827a37c3ab75459dd1a67806a7e17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strobes
+    second: {fileID: 2100000, guid: 45864e6be133ecc40a6c80a996d7c905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Struts
+    second: {fileID: 2100000, guid: 2908ae3b7a62678489aee8a3a90ff03d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UpperWing
+    second: {fileID: 2100000, guid: 16d179fb11932e041862c27dfcc28d15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wheels
+    second: {fileID: 2100000, guid: 628c88cca470f034198f35bb465620eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yoke
+    second: {fileID: 2100000, guid: 17e5fd1c0ef997845a67c73dab799f28, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -156,8 +271,8 @@ ModelImporter:
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
