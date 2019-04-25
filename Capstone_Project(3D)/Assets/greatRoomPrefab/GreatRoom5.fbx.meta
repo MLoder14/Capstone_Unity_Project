@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: 39e87d73bb0cf66448488fe379024f60
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BalconyStairsRight
+    100002: BalconyStairssLeft
+    100004: base
+    100006: base 1
+    100008: base 10
+    100010: base 2
+    100012: base 3
+    100014: base 4
+    100016: base 5
+    100018: base 6
+    100020: base 7
+    100022: base 8
+    100024: base 9
+    100026: door
+    100028: door 1
+    100030: door 10
+    100032: door 2
+    100034: door 3
+    100036: door 4
+    100038: door 5
+    100040: door 6
+    100042: door 7
+    100044: door 8
+    100046: door 9
+    100048: door1
+    100050: door2
+    100052: door3
+    100054: door4
+    100056: door5
+    100058: door6
+    100060: door7
+    100062: door8
+    100064: door9
+    100066: doorKnob
+    100068: doorKnob 1
+    100070: doorKnob 2
+    100072: doorKnob 3
+    100074: doorKnob 4
+    100076: doorKnob 5
+    100078: doorKnob 6
+    100080: doorKnob 7
+    100082: doorKnob 8
+    100084: doorKnob 9
+    100086: doorKnob1
+    100088: Doors
+    100090: floorInlay
+    100092: GreatDoor
+    100094: //RootNode
+    100096: grp_newDoor
+    100098: knob
+    100100: knob 1
+    100102: knob 10
+    100104: knob 2
+    100106: knob 3
+    100108: knob 4
+    100110: knob 5
+    100112: knob 6
+    100114: knob 7
+    100116: knob 8
+    100118: knob 9
+    100120: landing
+    100122: mesh_mainbuilding
+    100124: mesh_newDoor
+    100126: mesh_newDoorFrame
+    100128: mesh_testRoom
+    100130: pCylinder1
+    100132: pCylinder10
+    100134: pCylinder11
+    100136: pCylinder12
+    100138: pCylinder13
+    100140: pCylinder14
+    100142: pCylinder19
+    100144: pCylinder2
+    100146: pCylinder20
+    100148: pCylinder21
+    100150: pCylinder22
+    100152: pCylinder23
+    100154: pCylinder24
+    100156: pCylinder25
+    100158: pCylinder26
+    100160: pCylinder27
+    100162: pCylinder28
+    100164: pCylinder29
+    100166: pCylinder3
+    100168: pCylinder30
+    100170: pCylinder31
+    100172: pCylinder32
+    100174: pCylinder4
+    100176: pCylinder5
+    100178: pCylinder6
+    100180: pCylinder7
+    100182: pCylinder8
+    100184: pCylinder9
+    100186: Pillars
+    100188: stairs
+    100190: statue
+    400000: BalconyStairsRight
+    400002: BalconyStairssLeft
+    400004: base
+    400006: base 1
+    400008: base 10
+    400010: base 2
+    400012: base 3
+    400014: base 4
+    400016: base 5
+    400018: base 6
+    400020: base 7
+    400022: base 8
+    400024: base 9
+    400026: door
+    400028: door 1
+    400030: door 10
+    400032: door 2
+    400034: door 3
+    400036: door 4
+    400038: door 5
+    400040: door 6
+    400042: door 7
+    400044: door 8
+    400046: door 9
+    400048: door1
+    400050: door2
+    400052: door3
+    400054: door4
+    400056: door5
+    400058: door6
+    400060: door7
+    400062: door8
+    400064: door9
+    400066: doorKnob
+    400068: doorKnob 1
+    400070: doorKnob 2
+    400072: doorKnob 3
+    400074: doorKnob 4
+    400076: doorKnob 5
+    400078: doorKnob 6
+    400080: doorKnob 7
+    400082: doorKnob 8
+    400084: doorKnob 9
+    400086: doorKnob1
+    400088: Doors
+    400090: floorInlay
+    400092: GreatDoor
+    400094: //RootNode
+    400096: grp_newDoor
+    400098: knob
+    400100: knob 1
+    400102: knob 10
+    400104: knob 2
+    400106: knob 3
+    400108: knob 4
+    400110: knob 5
+    400112: knob 6
+    400114: knob 7
+    400116: knob 8
+    400118: knob 9
+    400120: landing
+    400122: mesh_mainbuilding
+    400124: mesh_newDoor
+    400126: mesh_newDoorFrame
+    400128: mesh_testRoom
+    400130: pCylinder1
+    400132: pCylinder10
+    400134: pCylinder11
+    400136: pCylinder12
+    400138: pCylinder13
+    400140: pCylinder14
+    400142: pCylinder19
+    400144: pCylinder2
+    400146: pCylinder20
+    400148: pCylinder21
+    400150: pCylinder22
+    400152: pCylinder23
+    400154: pCylinder24
+    400156: pCylinder25
+    400158: pCylinder26
+    400160: pCylinder27
+    400162: pCylinder28
+    400164: pCylinder29
+    400166: pCylinder3
+    400168: pCylinder30
+    400170: pCylinder31
+    400172: pCylinder32
+    400174: pCylinder4
+    400176: pCylinder5
+    400178: pCylinder6
+    400180: pCylinder7
+    400182: pCylinder8
+    400184: pCylinder9
+    400186: Pillars
+    400188: stairs
+    400190: statue
+    2100000: lambertWhite
+    2100002: lambert1
+    2100004: lambertRed
+    2100006: lambertLightBrown
+    2100008: lambertBrown
+    2100010: lambertGold
+    2100012: lambertBalconyRails
+    2100014: lambertWalls
+    2300000: BalconyStairsRight
+    2300002: BalconyStairssLeft
+    2300004: base
+    2300006: base 1
+    2300008: base 10
+    2300010: base 2
+    2300012: base 3
+    2300014: base 4
+    2300016: base 5
+    2300018: base 6
+    2300020: base 7
+    2300022: base 8
+    2300024: base 9
+    2300026: door 1
+    2300028: door 10
+    2300030: door 2
+    2300032: door 3
+    2300034: door 4
+    2300036: door 5
+    2300038: door 6
+    2300040: door 7
+    2300042: door 8
+    2300044: door 9
+    2300046: floorInlay
+    2300048: GreatDoor
+    2300050: knob
+    2300052: knob 1
+    2300054: knob 10
+    2300056: knob 2
+    2300058: knob 3
+    2300060: knob 4
+    2300062: knob 5
+    2300064: knob 6
+    2300066: knob 7
+    2300068: knob 8
+    2300070: knob 9
+    2300072: landing
+    2300074: mesh_mainbuilding
+    2300076: mesh_newDoor
+    2300078: mesh_newDoorFrame
+    2300080: mesh_testRoom
+    2300082: pCylinder1
+    2300084: pCylinder10
+    2300086: pCylinder11
+    2300088: pCylinder12
+    2300090: pCylinder13
+    2300092: pCylinder14
+    2300094: pCylinder19
+    2300096: pCylinder2
+    2300098: pCylinder20
+    2300100: pCylinder21
+    2300102: pCylinder22
+    2300104: pCylinder23
+    2300106: pCylinder24
+    2300108: pCylinder25
+    2300110: pCylinder26
+    2300112: pCylinder27
+    2300114: pCylinder28
+    2300116: pCylinder29
+    2300118: pCylinder3
+    2300120: pCylinder30
+    2300122: pCylinder31
+    2300124: pCylinder32
+    2300126: pCylinder4
+    2300128: pCylinder5
+    2300130: pCylinder6
+    2300132: pCylinder7
+    2300134: pCylinder8
+    2300136: pCylinder9
+    2300138: stairs
+    2300140: statue
+    3300000: BalconyStairsRight
+    3300002: BalconyStairssLeft
+    3300004: base
+    3300006: base 1
+    3300008: base 10
+    3300010: base 2
+    3300012: base 3
+    3300014: base 4
+    3300016: base 5
+    3300018: base 6
+    3300020: base 7
+    3300022: base 8
+    3300024: base 9
+    3300026: door 1
+    3300028: door 10
+    3300030: door 2
+    3300032: door 3
+    3300034: door 4
+    3300036: door 5
+    3300038: door 6
+    3300040: door 7
+    3300042: door 8
+    3300044: door 9
+    3300046: floorInlay
+    3300048: GreatDoor
+    3300050: knob
+    3300052: knob 1
+    3300054: knob 10
+    3300056: knob 2
+    3300058: knob 3
+    3300060: knob 4
+    3300062: knob 5
+    3300064: knob 6
+    3300066: knob 7
+    3300068: knob 8
+    3300070: knob 9
+    3300072: landing
+    3300074: mesh_mainbuilding
+    3300076: mesh_newDoor
+    3300078: mesh_newDoorFrame
+    3300080: mesh_testRoom
+    3300082: pCylinder1
+    3300084: pCylinder10
+    3300086: pCylinder11
+    3300088: pCylinder12
+    3300090: pCylinder13
+    3300092: pCylinder14
+    3300094: pCylinder19
+    3300096: pCylinder2
+    3300098: pCylinder20
+    3300100: pCylinder21
+    3300102: pCylinder22
+    3300104: pCylinder23
+    3300106: pCylinder24
+    3300108: pCylinder25
+    3300110: pCylinder26
+    3300112: pCylinder27
+    3300114: pCylinder28
+    3300116: pCylinder29
+    3300118: pCylinder3
+    3300120: pCylinder30
+    3300122: pCylinder31
+    3300124: pCylinder32
+    3300126: pCylinder4
+    3300128: pCylinder5
+    3300130: pCylinder6
+    3300132: pCylinder7
+    3300134: pCylinder8
+    3300136: pCylinder9
+    3300138: stairs
+    3300140: statue
+    4300000: landing
+    4300002: stairs
+    4300004: GreatDoor
+    4300006: statue
+    4300008: floorInlay
+    4300010: BalconyStairsRight
+    4300012: BalconyStairssLeft
+    4300014: knob
+    4300016: base
+    4300018: door
+    4300020: knob
+    4300022: base
+    4300024: door
+    4300026: knob
+    4300028: base
+    4300030: door
+    4300032: knob
+    4300034: base
+    4300036: door
+    4300038: knob
+    4300040: base
+    4300042: door
+    4300044: knob
+    4300046: base
+    4300048: door
+    4300050: knob
+    4300052: base
+    4300054: door
+    4300056: knob
+    4300058: base
+    4300060: door
+    4300062: knob
+    4300064: base
+    4300066: door
+    4300068: knob
+    4300070: base
+    4300072: door
+    4300074: pCylinder1
+    4300076: pCylinder2
+    4300078: pCylinder3
+    4300080: pCylinder4
+    4300082: pCylinder5
+    4300084: pCylinder6
+    4300086: pCylinder7
+    4300088: pCylinder8
+    4300090: pCylinder9
+    4300092: pCylinder10
+    4300094: pCylinder11
+    4300096: pCylinder12
+    4300098: pCylinder13
+    4300100: pCylinder14
+    4300102: pCylinder19
+    4300104: pCylinder20
+    4300106: pCylinder21
+    4300108: pCylinder22
+    4300110: pCylinder23
+    4300112: pCylinder24
+    4300114: pCylinder25
+    4300116: pCylinder26
+    4300118: pCylinder27
+    4300120: pCylinder28
+    4300122: pCylinder29
+    4300124: pCylinder30
+    4300126: pCylinder31
+    4300128: pCylinder32
+    4300130: mesh_mainbuilding
+    4300132: mesh_testRoom
+    4300134: knob
+    4300136: base
+    4300138: mesh_newDoor
+    4300140: mesh_newDoorFrame
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
