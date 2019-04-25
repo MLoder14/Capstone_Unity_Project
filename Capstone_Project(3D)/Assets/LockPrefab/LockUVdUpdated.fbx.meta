@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: f056f20f137157645bb4b12068d05de3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: lock_body
+    100002: //RootNode
+    100004: mesh_innerTumbler
+    100006: mesh_outerCasing
+    100008: mesh_pin1bottom
+    100010: mesh_pin1top
+    100012: mesh_pin2bottom
+    100014: mesh_pin2top
+    100016: mesh_pin3bottom
+    100018: mesh_pin3top
+    100020: mesh_pin4bottom
+    100022: mesh_pin4top
+    100024: mesh_spring1
+    100026: mesh_spring2
+    100028: mesh_spring3
+    100030: mesh_spring4
+    100032: pin1
+    100034: pin2
+    100036: pin3
+    100038: pin4
+    400000: lock_body
+    400002: //RootNode
+    400004: mesh_innerTumbler
+    400006: mesh_outerCasing
+    400008: mesh_pin1bottom
+    400010: mesh_pin1top
+    400012: mesh_pin2bottom
+    400014: mesh_pin2top
+    400016: mesh_pin3bottom
+    400018: mesh_pin3top
+    400020: mesh_pin4bottom
+    400022: mesh_pin4top
+    400024: mesh_spring1
+    400026: mesh_spring2
+    400028: mesh_spring3
+    400030: mesh_spring4
+    400032: pin1
+    400034: pin2
+    400036: pin3
+    400038: pin4
+    2100000: PhongEInnerRotatingCylinder
+    2100002: phongE1
+    2100004: PhongPins
+    2100006: PhongSpring
+    2300000: mesh_innerTumbler
+    2300002: mesh_outerCasing
+    2300004: mesh_pin1bottom
+    2300006: mesh_pin1top
+    2300008: mesh_pin2bottom
+    2300010: mesh_pin2top
+    2300012: mesh_pin3bottom
+    2300014: mesh_pin3top
+    2300016: mesh_pin4bottom
+    2300018: mesh_pin4top
+    2300020: mesh_spring1
+    2300022: mesh_spring2
+    2300024: mesh_spring3
+    2300026: mesh_spring4
+    3300000: mesh_innerTumbler
+    3300002: mesh_outerCasing
+    3300004: mesh_pin1bottom
+    3300006: mesh_pin1top
+    3300008: mesh_pin2bottom
+    3300010: mesh_pin2top
+    3300012: mesh_pin3bottom
+    3300014: mesh_pin3top
+    3300016: mesh_pin4bottom
+    3300018: mesh_pin4top
+    3300020: mesh_spring1
+    3300022: mesh_spring2
+    3300024: mesh_spring3
+    3300026: mesh_spring4
+    4300000: mesh_innerTumbler
+    4300002: mesh_outerCasing
+    4300004: mesh_pin1top
+    4300006: mesh_pin1bottom
+    4300008: mesh_spring1
+    4300010: mesh_spring2
+    4300012: mesh_pin2top
+    4300014: mesh_pin2bottom
+    4300016: mesh_spring3
+    4300018: mesh_pin3top
+    4300020: mesh_pin3bottom
+    4300022: mesh_spring4
+    4300024: mesh_pin4top
+    4300026: mesh_pin4bottom
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
