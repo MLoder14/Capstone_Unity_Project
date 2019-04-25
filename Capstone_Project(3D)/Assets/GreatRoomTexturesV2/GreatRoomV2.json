@@ -1,0 +1,85 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "Balcony": {
+            "shader": "Main shader"
+        },
+        "Ceiling_Dome": {
+            "shader": "Main shader"
+        },
+        "Dome_Rim": {
+            "shader": "Main shader"
+        },
+        "Dome_Window": {
+            "shader": "Main shader"
+        },
+        "Doorway": {
+            "shader": "Main shader"
+        },
+        "Floor_Trim": {
+            "shader": "Main shader"
+        },
+        "Main_Carpet": {
+            "shader": "Main shader"
+        },
+        "Outside_Window": {
+            "shader": "Main shader"
+        },
+        "Rail_Base": {
+            "shader": "Main shader"
+        },
+        "Walls": {
+            "shader": "Main shader"
+        },
+        "Window": {
+            "shader": "Main shader"
+        },
+        "lambert2": {
+            "shader": "Main shader"
+        },
+        "lambertBalconyRails": {
+            "shader": "Main shader"
+        },
+        "lambertRed": {
+            "shader": "Main shader"
+        },
+        "lambertWalls": {
+            "shader": "Main shader"
+        },
+        "lambertWhite": {
+            "shader": "Main shader"
+        }
+    }
+}

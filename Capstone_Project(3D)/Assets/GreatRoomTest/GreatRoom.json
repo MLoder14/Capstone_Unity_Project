@@ -1,0 +1,85 @@
+{
+    "format": {
+        "version": "1.0"
+    },
+    "shaders": {
+        "Main shader": {
+            "parameters": {
+                "Common Parameters": {
+                    "ao_intensity": 0.75,
+                    "emissive_intensity": 1,
+                    "horizonFade": 1.2999999523162842,
+                    "nbSamples": 16
+                },
+                "Parallax Occlusion Mapping": {
+                    "maxPOMSamples": 16,
+                    "minPOMSamples": 4,
+                    "pomStrength": 1,
+                    "usePOM": false
+                },
+                "Subsurface Scattering Parameters": {
+                    "sssColor": [
+                        0.7009999752044678,
+                        0.3009999990463257,
+                        0.3050000071525574
+                    ],
+                    "sssEnabled": true,
+                    "sssScale": 0.5,
+                    "sssType": 1
+                }
+            },
+            "shader": "pbr-metal-rough",
+            "shaderInstance": "Main shader"
+        }
+    },
+    "texturesets": {
+        "BalconyStairsRightSG": {
+            "shader": "Main shader"
+        },
+        "Balcony_SG": {
+            "shader": "Main shader"
+        },
+        "Ceiling_Dome_SG": {
+            "shader": "Main shader"
+        },
+        "Dome_Rim_SG": {
+            "shader": "Main shader"
+        },
+        "Dome_Window_SG": {
+            "shader": "Main shader"
+        },
+        "Doorway_SG": {
+            "shader": "Main shader"
+        },
+        "Floor_Trim_SG": {
+            "shader": "Main shader"
+        },
+        "Main_Carpet_SG": {
+            "shader": "Main shader"
+        },
+        "Outside_Window_SG": {
+            "shader": "Main shader"
+        },
+        "Rail_Base_SG": {
+            "shader": "Main shader"
+        },
+        "Window_SG": {
+            "shader": "Main shader"
+        },
+        "lambert3SG": {
+            "shader": "Main shader"
+        },
+        "landingSG": {
+            "shader": "Main shader"
+        },
+        "landingSG1": {
+            "shader": "Main shader"
+        },
+        "landingSG2": {
+            "shader": "Main shader"
+        },
+        "mesh_mainbuildingSG": {
+            "shader": "Main shader"
+        }
+    }
+}
