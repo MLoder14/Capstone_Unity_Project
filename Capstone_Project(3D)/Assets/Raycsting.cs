@@ -10,6 +10,8 @@ public class Raycsting : MonoBehaviour
     //public Animator pouchAnimator;
 
     private Animator pouch;
+    private GameObject player; // for the player facing
+
     // Start is called before the first frame update
     void Start()
     {
@@ -46,5 +48,10 @@ public class Raycsting : MonoBehaviour
             }
         }
 
+    }
+
+    void UpdatePlayerFacing()
+    {
+        
     }
 }
