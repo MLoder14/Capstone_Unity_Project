@@ -11,6 +11,10 @@ public class Raycsting : MonoBehaviour
 
     private Animator pouch;
     private GameObject player; // for the player facing
+    private GameObject item;
+    public GameObject[] Slots;
+
+    private bool HandFull;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +27,7 @@ public class Raycsting : MonoBehaviour
     {
         RaycastHit hit;
         float theDistance;
-
+        HandFull = false;
 
         Vector3 forward = transform.TransformDirection(Vector3.forward) * 10;
         Debug.DrawRay(transform.position, forward, Color.green);
@@ -42,9 +46,23 @@ public class Raycsting : MonoBehaviour
                 hit.collider.gameObject.GetComponent<Animator>().SetBool("Open", true);
             }
             //if the raycast doesn't hit the pouch, close it.
-            else if (hit.collider.gameObject.tag != "Pouch")
+            else //if (hit.collider.gameObject.tag != "Pouch")
             {
                 pouch.SetBool("Open", false);
+            }
+            
+            //Checks to see if it hit somthing that can be picked up.
+            if (hit.collider.gameObject.tag == "PickupItem" && Input.GetKeyUp(KeyCode.P))
+            {
+                item = hit.collider.gameObject;
+                item.transform.position = Slots[0].transform.position;
+                if (item.transform.position == Slots[0].transform.position)
+                {
+                    HandFull = true;
+                }
+                //Transform itemPosition = item.GetComponent<Transform>();
+                //itemPosition = Slots[0].GetComponent<Transform>();
+                //Slots[1].transform;
             }
         }
 
