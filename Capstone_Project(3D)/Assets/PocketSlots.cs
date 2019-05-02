@@ -12,16 +12,13 @@ public class PocketSlots : MonoBehaviour
 {
     private GameObject[] slots = new GameObject[2];
     public bool full = false;
+
     //this is for the transforms
     public Transform[] slotPosition;
     
-
-
     public void AddtoPocket(GameObject go, int slotNum)
     {
         slots[slotNum] = go;
-
-
         /*
         if (slots[0] == null)
         {
@@ -35,13 +32,19 @@ public class PocketSlots : MonoBehaviour
         }
         return -1;
         */
-
     }
 
+    /// <summary>
+    /// Returns the int postion of the free slot.
+    /// this allows us to take the free slots transform and use it to put the object away.
+    /// </summary>
+    /// <param name="posNumber"></param>
+    /// <returns></returns>
     public Transform ReturnPosition(int posNumber)
     {
         return slotPosition[posNumber];
     }
+
     /// <summary>
     /// check each slot
     /// if they are both full return true
@@ -58,9 +61,5 @@ public class PocketSlots : MonoBehaviour
             return 1;
         }
         return -1;
-    }
-    private void Update()
-    {
-        
     }
 }
