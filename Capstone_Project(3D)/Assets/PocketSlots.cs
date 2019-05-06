@@ -15,25 +15,67 @@ public class PocketSlots : MonoBehaviour
 
     //this is for the transforms
     public Transform[] slotPosition;
-    
-    public void AddtoPocket(GameObject go, int slotNum)
+
+    //for the item pocket gameobjects
+    public GameObject[] pocketItems;
+
+
+
+    /// <summary>
+    /// make this potentially return a bool if it can add it to a pocket.
+    /// </summary>
+    /// <param name="go"></param>
+    /// <param name="slotNum"></param>
+    public bool AddtoPocket(GameObject go)
     {
-        slots[slotNum] = go;
-        /*
-        if (slots[0] == null)
+        int slotReturn = CheckSlots();
+        //slots[slotNum] = go;
+        if (slotReturn == -1)
         {
-            slots[0] = go;
-            return 0;
+            return false;
         }
-        else if (slots[1] == null)
+        if (slotReturn == 0)
         {
-            slots[1] = go;
-            return 1;
+            //adding item to the pocket array
+            GameObject temp = Instantiate(go.GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);
+            pocketItems[slotReturn] = temp;
+            pocketItems[slotReturn].transform.position = slotPosition[slotReturn].position;
+            Destroy(go);
+            return true;
         }
-        return -1;
-        */
+        if (slotReturn == 1)
+        {
+            //adding item to the pocket array
+            GameObject temp = Instantiate(go.GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);
+            pocketItems[slotReturn] = temp;
+            pocketItems[slotReturn].transform.position = slotPosition[slotReturn].position;
+            Destroy(go);
+            return true;
+        }
+        return false;
     }
 
+    /// <summary>
+    /// take the item out of the pocket.
+    /// </summary>
+    /// <param name="go"></param>
+    public GameObject RemoveFromPocket(GameObject go)
+    {
+        if (go == pocketItems[0])
+        {
+            GameObject temp = pocketItems[0];
+            pocketItems[0] = null;
+            return temp;
+        }
+
+        if (go == pocketItems[1])
+        {
+            GameObject temp = pocketItems[1];
+            pocketItems[1] = null;
+            return temp;
+        }
+        return null;
+    }
     /// <summary>
     /// Returns the int postion of the free slot.
     /// this allows us to take the free slots transform and use it to put the object away.

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,15 +13,21 @@ public class Raycsting : MonoBehaviour
     private Animator pouch;
     private GameObject player; // for the player facing
     private GameObject item;
+
+    //for the handslots transforms
     public GameObject[] HandSlots;
 
+    //for the handslots items array
+    public GameObject[] ItemSlots;
+
     private bool HandFull = false;
-    //public GameObject BigItem
+
+    private GameObject pouchObject;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -28,7 +35,7 @@ public class Raycsting : MonoBehaviour
     {
         RaycastHit hit;
         float theDistance;
-       // HandFull = false;
+        // HandFull = false;
 
         Vector3 forward = transform.TransformDirection(Vector3.forward) * 10;
         Debug.DrawRay(transform.position, forward, Color.green);
@@ -44,6 +51,8 @@ public class Raycsting : MonoBehaviour
             {
                 //save the pouch animator for shutting it off later.
                 pouch = hit.collider.gameObject.GetComponent<Animator>();
+                pouchObject = hit.collider.gameObject;
+
                 if (Input.GetKeyUp(KeyCode.E))
                 {
                     hit.collider.gameObject.GetComponent<Animator>().SetBool("Open", true);
@@ -56,15 +65,27 @@ public class Raycsting : MonoBehaviour
                     //int result = pouch.GetComponent<PocketSlots>().AddtoPocket(temp);
                     int slotNumber = pouch.GetComponent<PocketSlots>().CheckSlots();
                     if (slotNumber != -1)
-                    {                        
+                    {
                         Debug.Log("Getting in there");
 
-                        GameObject temp = Instantiate(HandSlots[0].GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);
-                        temp.transform.position = pouch.GetComponent<PocketSlots>().ReturnPosition(slotNumber).position;
-                        pouch.GetComponent<PocketSlots>().AddtoPocket(temp, slotNumber);
-                        temp.transform.SetParent(pouch.transform);
+                        // ----------------------------------------------------------wtf?
+                        //why set it then make it null?
+
+                        GameObject temp = ItemSlots[0];
+                        ItemSlots[0] = null;
+                        //temp.transform.position = pouch.GetComponent<PocketSlots>().ReturnPosition(slotNumber).position;
+
+                        pouch.GetComponent<PocketSlots>().AddtoPocket(temp);
+
+                        //temp.transform.SetParent(pouch.transform);
                         //HandSlots[0].gameObject.SetActive(false);
+
                         Destroy(HandSlots[0]);
+
+                        //add the item to the itemslots array and remove it from the hand array.
+                        //check if the add to pockets it true; if so add the item to that slot
+                        //otherwise, do nothing.
+
                         HandFull = false;
                     }
                     else
@@ -78,26 +99,39 @@ public class Raycsting : MonoBehaviour
             //if the raycast doesn't hit the pouch, close it.
             else if (hit.collider.gameObject.tag == "Pouch" && Input.GetKeyUp(KeyCode.R))
             {
-                if(pouch != null)
+                if (pouch != null)
                 {
                     //pouch = hit.collider.gameObject.GetComponent<Animator>();
                     pouch.SetBool("Open", false);
                 }
 
             }
-            
+
             //Checks to see if it hit somthing that can be picked up.
             if (hit.collider.gameObject.tag == "PickupItem" && Input.GetKeyUp(KeyCode.O))
             {
                 if (HandFull != true)
                 {
                     item = hit.collider.gameObject;
-                    item.transform.position = HandSlots[0].transform.position;
+                    //ItemSlots[0] = item;
+
+                    Debug.Log("Pressing O ------------------------------------------------------------------");
+
+                    //does not like the way I am grabbing the item to go in the pouch
+                    GameObject temp1 = pouchObject.GetComponent<PocketSlots>().RemoveFromPocket(item);
+                    //item.transform.position = HandSlots[0].transform.position;
+                    ItemSlots[0] = Instantiate(temp1.GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);
+                    ItemSlots[0].transform.position = HandSlots[0].transform.position;
+                    Destroy(item);
+
+                    
                     if (item.transform.position == HandSlots[0].transform.position)
                     {
-                        HandSlots[0] = item;
+                        HandSlots[0] = temp1;
                         HandFull = true;
                     }
+                    
+
                 }
 
                 //Transform itemPosition = item.GetComponent<Transform>();
