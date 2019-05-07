@@ -470,7 +470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5a22f6d50101840a4a9c1d4eeb43e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  altForm: {fileID: 1728070261}
+  altForm: {fileID: 1342968449477006193, guid: 211947a618c56424393bffcdb83bcf04, type: 3}
 --- !u!1001 &166754546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -758,7 +758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ddfe57d7df23bb4194545522571cc36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Slots: []
+  HandSlots: []
+  ItemSlots: []
 --- !u!1 &454091038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100168, guid: b235179bd2a63d1468dd430670338c55,
@@ -1273,6 +1274,7 @@ MonoBehaviour:
   slotPosition:
   - {fileID: 2059327398}
   - {fileID: 269633065}
+  pocketItems: []
 --- !u!1 &734473320 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: f16d2327c97043040895e07b9893ad9a,
@@ -1330,6 +1332,7 @@ MonoBehaviour:
   slotPosition:
   - {fileID: 1375197529}
   - {fileID: 1066509655}
+  pocketItems: []
 --- !u!1 &798996720 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: f16d2327c97043040895e07b9893ad9a,
@@ -1387,6 +1390,7 @@ MonoBehaviour:
   slotPosition:
   - {fileID: 2063799896}
   - {fileID: 85474112}
+  pocketItems: []
 --- !u!1 &865432964 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: f16d2327c97043040895e07b9893ad9a,
@@ -1562,6 +1566,7 @@ MonoBehaviour:
   slotPosition:
   - {fileID: 65986310}
   - {fileID: 1879534996}
+  pocketItems: []
 --- !u!4 &1057969687 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400196, guid: b235179bd2a63d1468dd430670338c55,
@@ -2121,7 +2126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d5a22f6d50101840a4a9c1d4eeb43e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  altForm: {fileID: 103273933}
+  altForm: {fileID: 5546818126885111652, guid: a1b654517f88c524e8edc3bf33845db3, type: 3}
 --- !u!1 &1879534995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2636,8 +2641,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ddfe57d7df23bb4194545522571cc36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Slots:
+  HandSlots:
   - {fileID: 1153815513}
+  - {fileID: 1205994850}
+  ItemSlots:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1001 &2021440198
 PrefabInstance:
   m_ObjectHideFlags: 0

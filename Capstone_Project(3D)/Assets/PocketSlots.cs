@@ -19,7 +19,10 @@ public class PocketSlots : MonoBehaviour
     //for the item pocket gameobjects
     public GameObject[] pocketItems;
 
-
+    public void Start()
+    {
+        pocketItems = new GameObject[2];
+    }
 
     /// <summary>
     /// make this potentially return a bool if it can add it to a pocket.
@@ -37,18 +40,20 @@ public class PocketSlots : MonoBehaviour
         if (slotReturn == 0)
         {
             //adding item to the pocket array
-            GameObject temp = Instantiate(go.GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);
+            GameObject temp = Instantiate(go, new Vector3(0, 0, 0), Quaternion.identity);
             pocketItems[slotReturn] = temp;
             pocketItems[slotReturn].transform.position = slotPosition[slotReturn].position;
+            //temp.SetActive(false);
             Destroy(go);
             return true;
         }
         if (slotReturn == 1)
         {
             //adding item to the pocket array
-            GameObject temp = Instantiate(go.GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);
+            GameObject temp = Instantiate(go, new Vector3(0, 0, 0), Quaternion.identity);
             pocketItems[slotReturn] = temp;
             pocketItems[slotReturn].transform.position = slotPosition[slotReturn].position;
+            //temp.SetActive(false);
             Destroy(go);
             return true;
         }
