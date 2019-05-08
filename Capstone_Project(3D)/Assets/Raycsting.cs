@@ -138,19 +138,26 @@ public class Raycsting : MonoBehaviour
 
                     item = hit.collider.gameObject;
 
-                    //create new bigger version of object inside pocket
-                    GameObject aTemp = Instantiate(item.GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);
+                    
+                    GameObject aTemp = Instantiate(item, new Vector3(0, 0, 0), Quaternion.identity);
                     //aTemp.transform.position = HandSlots[0].transform.position;
 
                     //Item is now in the pouch and needs to be removed from the pouch.
-                    
+                    //pouchObject.GetComponent<PocketSlots>().pocketItems[item.GetComponent<PocketSlots>().ReturnPosition(int x)];
 
-                    HandSlots[0].transform.position = ItemSlots[0].transform.position;
 
-                    pouchObject.GetComponent<PocketSlots>().RemoveFromPocket(aTemp);
+
+
+                    //Set the item slot of the hand to hold the pickeup item
+                    ItemSlots[0] = aTemp;
+                    ItemSlots[0].transform.position = HandSlots[0].transform.position;
+
+                    //Removes the Item from the pockets array. DOES NOT delete or alter object
+                    pouchObject.GetComponent<PocketSlots>().RemoveFromPocket(item);
+                    //pouchObject.GetComponent<PocketSlots>().RemoveFromPocket(aTemp);
 
                     //update the player hand array
-                    Destroy(aTemp);
+                    Destroy(item);
 
                 }
             }

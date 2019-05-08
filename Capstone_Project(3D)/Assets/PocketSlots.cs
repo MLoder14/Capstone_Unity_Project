@@ -62,6 +62,7 @@ public class PocketSlots : MonoBehaviour
 
     /// <summary>
     /// take the item out of the pocket.
+    /// call and just pass in the item you are removing from pouch
     /// </summary>
     /// <param name="go"></param>
     public GameObject RemoveFromPocket(GameObject go)
@@ -82,7 +83,7 @@ public class PocketSlots : MonoBehaviour
         return null;
     }
     /// <summary>
-    /// Returns the int postion of the free slot.
+    /// Returns the int position(transform) of the free slot.
     /// this allows us to take the free slots transform and use it to put the object away.
     /// </summary>
     /// <param name="posNumber"></param>
