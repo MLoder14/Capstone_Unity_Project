@@ -23,6 +23,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: lambert2BookCover
     second: {fileID: 2100000, guid: 5d3c883421be76e4a9630384b9ab09ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3BookPages
+    second: {fileID: 2100000, guid: 6af93e10b6c0bff4884ca0ad1811ed22, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
