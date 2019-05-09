@@ -131,6 +131,14 @@ public class Raycsting : MonoBehaviour
                 //HandSlots[1].transform;
             }
 
+            //Drop item
+            if (Input.GetKeyUp(KeyCode.U) && ItemSlots[0] != null)
+            {
+                ItemSlots[0].gameObject.GetComponent<Rigidbody>().isKinematic = false;
+                ItemSlots[0].gameObject.GetComponent<Rigidbody>().useGravity = true;
+            }
+
+            //put into hands
             if (hit.collider.gameObject.tag == "PickupItem" && Input.GetKeyUp(KeyCode.I))
             {
                 if (HandFull != true)
@@ -141,12 +149,6 @@ public class Raycsting : MonoBehaviour
                     
                     GameObject aTemp = Instantiate(item, new Vector3(0, 0, 0), Quaternion.identity);
                     //aTemp.transform.position = HandSlots[0].transform.position;
-
-                    //Item is now in the pouch and needs to be removed from the pouch.
-                    //pouchObject.GetComponent<PocketSlots>().pocketItems[item.GetComponent<PocketSlots>().ReturnPosition(int x)];
-
-
-
 
                     //Set the item slot of the hand to hold the pickeup item
                     ItemSlots[0] = aTemp;

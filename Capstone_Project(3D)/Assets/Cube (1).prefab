@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1342968449477006195}
   - component: {fileID: 1342968449477006194}
   - component: {fileID: 1342968449477006207}
+  - component: {fileID: 6321113868507951127}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: PickupItem
@@ -122,3 +123,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   altForm: {fileID: 5546818126885111652, guid: a1b654517f88c524e8edc3bf33845db3, type: 3}
+--- !u!65 &6321113868507951127
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342968449477006193}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
