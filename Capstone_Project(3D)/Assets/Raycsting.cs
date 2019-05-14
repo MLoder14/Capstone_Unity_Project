@@ -166,4 +166,15 @@ public class Raycsting : MonoBehaviour
         }
 
     }
+
+    public GameObject GetFromHand()
+    {
+        if (ItemSlots[0] != null)
+        {
+            GameObject temp = ItemSlots[0];
+            ItemSlots[0] = null;
+            return temp;
+        }
+        return null;
+    }
 }
