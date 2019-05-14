@@ -44,7 +44,7 @@ public class Raycsting : MonoBehaviour
         if (Physics.Raycast(transform.position, (forward), out hit))
         {
             theDistance = hit.distance;
-            print(theDistance + " " + hit.collider.gameObject.name);
+            //print(theDistance + " " + hit.collider.gameObject.name);
 
             //checks the ray cast to see if it hits the pouch.
             if (hit.collider.gameObject.tag == "Pouch")

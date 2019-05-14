@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.100089595, g: 0.09709102, b: 0.07445852, a: 1}
+  m_IndirectSpecularColor: {r: 0.100090034, g: 0.09709133, b: 0.07445867, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -444,7 +444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: eb96bb9a166e27f44a4567f3c8c208d3, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400026, guid: eb96bb9a166e27f44a4567f3c8c208d3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -606,7 +606,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: -2.749, y: 62.309002, z: 49.945004}
 --- !u!114 &170076736
 MonoBehaviour:
@@ -5798,7 +5798,7 @@ PrefabInstance:
     - target: {fileID: 5142547525105727868, guid: ec40f8fc5d6c9ea4c8ca431f60953f81,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5142547525105727868, guid: ec40f8fc5d6c9ea4c8ca431f60953f81,
         type: 3}
@@ -5984,7 +5984,7 @@ Transform:
   m_LocalScale: {x: 36.917263, y: 36.917263, z: 36.917263}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &562155816
 PrefabInstance:
@@ -6370,7 +6370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 32534b3e257dc4aa4a46ad3b126483a8, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 32534b3e257dc4aa4a46ad3b126483a8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6487,7 +6487,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &868545975 stripped
 GameObject:
@@ -6739,7 +6739,7 @@ PrefabInstance:
     - target: {fileID: 8362147369635225277, guid: 45f3282cbf01de6449c06516342eec21,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8362147369635225277, guid: 45f3282cbf01de6449c06516342eec21,
         type: 3}
@@ -6783,36 +6783,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45f3282cbf01de6449c06516342eec21, type: 3}
---- !u!1 &944996238
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 1825292462}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 944996239}
-  m_Layer: 0
-  m_Name: Final_Tree_Scene2 (Missing Prefab)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &944996239
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 1825292462}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 944996238}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &968724389 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: dd97567716632402897e35f75ee73897,
@@ -6970,36 +6940,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 734715013}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1163579099
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 832565646}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1163579100}
-  m_Layer: 0
-  m_Name: Final_Tree_Scene2 (1) (Missing Prefab)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1163579100
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 832565646}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163579099}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1165356161
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13043,36 +12983,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300084, guid: 528e859e3e8763948b24be74086a3033, type: 3}
---- !u!1 &1774869557
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 1273792601}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1774869558}
-  m_Layer: 0
-  m_Name: Mesh_Skydome (Missing Prefab)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1774869558
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 1273792601}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1774869557}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1825292462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13467,7 +13377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 88bc1b51668a87d4bbb9eab956c14157, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 88bc1b51668a87d4bbb9eab956c14157, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
