@@ -622,10 +622,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 05c84f6e-1b48-4d83-b854-f356e13394a6
+  cloudProjectId: 88ac028e-6114-4708-a348-9127ebf40b1b
   framebufferDepthMemorylessMode: 0
-  projectName: Capstone_Project(3D)
-  organizationId: loderm14
+  projectName: Capstone_Project(3D) (1)
+  organizationId: 1e8aee5-f41e-4b66-8afd-2b5f201bc154
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

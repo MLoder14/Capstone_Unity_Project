@@ -101,6 +101,7 @@ public class LockController : MonoBehaviour
                     
                 }
             }
+            selectedPin = 0;
         }
         rotateWrench();
         movePick();
@@ -115,8 +116,14 @@ public class LockController : MonoBehaviour
 
     public void movePickUnderPin()
     {
-        pickMovePoint.transform.position = new Vector3(pinObjects[currentActivePin].GetComponent<MovePin>().pinHeight.transform.position.x, pickPointStart.y, pickPointStart.z);
-        pickMovePoint.transform.eulerAngles = new Vector3(pickPointStartRotation.x, pickPointStartRotation.y, 0.75f * selectedPin);
+        //pickMovePoint.transform.position = new Vector3(pinObjects[currentActivePin].GetComponent<MovePin>().pinHeight.transform.position.x, pickPointStart.y, pickPointStart.z);
+        //pickMovePoint.transform.eulerAngles = new Vector3(pickPointStartRotation.x, pickPointStartRotation.y, 0.75f * selectedPin);
+        // += Quaternion.Euler(0,0, 0.75f * selectedPin);//new Vector3(pickPointStartRotation.x, pickPointStartRotation.y, 0.75f * selectedPin);
+        Transform pinTransform = pinObjects[currentActivePin].GetComponent<MovePin>().pinHeight.transform;
+        
+        pickMovePoint.transform.position = new Vector3(pinTransform.position.x, pickPointStart.y, pinTransform.position.z);
+        pickMovePoint.transform.eulerAngles = new Vector3(pickPointStartRotation.x, pickPointStartRotation.y, pickPointStartRotation.z);
+        pickMovePoint.transform.Rotate(0, 0, 0.75f * selectedPin, Space.Self);
         pickMovePoint.gameObject.transform.SetParent(pinObjects[currentActivePin].GetComponent<MovePin>().pinBottom.transform);
         
     }
