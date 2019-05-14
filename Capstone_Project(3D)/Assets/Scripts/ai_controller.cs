@@ -197,6 +197,10 @@ public class ai_controller : MonoBehaviour
 
     IEnumerator Attacking()
     {
+        if(anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
+        {
+            anim.Play("Attack",-1,0.0f);
+        }
         navAgent.isStopped = true;
         navAgent.velocity = Vector3.zero;
         setAllAnimParamsFalse();
@@ -212,6 +216,7 @@ public class ai_controller : MonoBehaviour
         checkInRangeReturn = checkInRange();
         if (checkInRangeReturn == IDLE)
         {
+            
             stateSwitcher(SEARCHING_FIRST);
         }
         else if(checkInRangeReturn == PURSUING)
@@ -337,6 +342,8 @@ public class ai_controller : MonoBehaviour
     /// <returns></returns>
     int checkInRange()
     {
+        int layerMask = 1 << 2;
+        layerMask = ~layerMask;
         //Debug.Log("Checking target range.");
         Vector3 heading = (target.transform.position - eyeDirection.transform.position).normalized;
         RaycastHit hit;
@@ -347,7 +354,7 @@ public class ai_controller : MonoBehaviour
         //Debug.Log("Dot: " + dot + " Distance: " + distance);
         Debug.DrawRay(eyePosition.position, (target.transform.position - eyePosition.position));
 
-        if (Physics.Raycast(eyeDirection.transform.position, (target.transform.position - eyeDirection.transform.position), out hit, maxRange))
+        if (Physics.Raycast(eyeDirection.transform.position, (target.transform.position - eyeDirection.transform.position), out hit, maxRange, layerMask))
         {
             //Debug.Log("Raycast Hit: " + hit.collider.name);
             if (dot > attackAngle && distance < attackRange && hit.transform.tag == "Player")
