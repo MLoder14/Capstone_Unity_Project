@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/CapMountains1.unity
+    guid: a5e0b176c2283495aa5c34a46dbd564c
+  - enabled: 1
     path: Assets/Scenes/ReesWorking.unity
     guid: 2fcc218cdd77bc746a4f31c4a1db6981
   m_configObjects: {}

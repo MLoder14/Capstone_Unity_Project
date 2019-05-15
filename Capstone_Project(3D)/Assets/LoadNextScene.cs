@@ -10,6 +10,6 @@ public class LoadNextScene : MonoBehaviour
     /// </summary>
     public void LoadNextLevel()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("ReesWorking");
     }
 }
