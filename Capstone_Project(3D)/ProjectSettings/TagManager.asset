@@ -7,6 +7,7 @@ TagManager:
   - Pouch
   - unlockZone
   - PickupItem
+  - placementZone
   layers:
   - Default
   - TransparentFX

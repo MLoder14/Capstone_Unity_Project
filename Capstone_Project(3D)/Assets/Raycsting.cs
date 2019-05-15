@@ -33,6 +33,9 @@ public class Raycsting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        int layerMask = 1 << 9;
+        layerMask = ~layerMask;
         RaycastHit hit;
         float theDistance;
         // HandFull = false;
@@ -41,16 +44,16 @@ public class Raycsting : MonoBehaviour
         Debug.DrawRay(transform.position, forward, Color.green);
 
         //if the ray cast hits something shoot it out in the debug log for testing.
-        if (Physics.Raycast(transform.position, (forward), out hit))
+        if (Physics.Raycast(transform.position, (forward), out hit, 2.0f, layerMask))
         {
             theDistance = hit.distance;
-            //print(theDistance + " " + hit.collider.gameObject.name);
+            print(theDistance + " " + hit.collider.gameObject.name);
 
             //checks the ray cast to see if it hits the pouch.
             if (hit.collider.gameObject.tag == "Pouch")
             {
                 //save the pouch animator for shutting it off later.
-                pouch = hit.collider.gameObject.GetComponent<Animator>();
+                pouch = hit.collider.gameObject.GetComponentInParent<Animator>();
                 pouchObject = hit.collider.gameObject;
 
                 if (Input.GetKeyUp(KeyCode.E))
@@ -103,7 +106,7 @@ public class Raycsting : MonoBehaviour
             }
 
             //Checks to see if it hit somthing that can be picked up. (puts item in hand)
-            if (hit.collider.gameObject.tag == "PickupItem" && Input.GetKeyUp(KeyCode.O))
+            if (hit.collider.gameObject.tag == "PickupItem" && Input.GetKeyUp(KeyCode.E))
             {
                 if (HandFull != true)
                 {
@@ -114,6 +117,7 @@ public class Raycsting : MonoBehaviour
                     //item.transform.position = HandSlots[0].transform.position;
                     ItemSlots[0] = temp;
                     ItemSlots[0].transform.position = HandSlots[0].transform.position;
+                    ItemSlots[0].transform.SetParent(HandSlots[0].transform);
                     HandFull = true;
                     Destroy(item);
 
@@ -153,6 +157,8 @@ public class Raycsting : MonoBehaviour
                     //Set the item slot of the hand to hold the pickeup item
                     ItemSlots[0] = aTemp;
                     ItemSlots[0].transform.position = HandSlots[0].transform.position;
+                    ItemSlots[0].transform.SetParent(HandSlots[0].transform);
+                    
 
                     //Removes the Item from the pockets array. DOES NOT delete or alter object
                     pouchObject.GetComponent<PocketSlots>().RemoveFromPocket(item);

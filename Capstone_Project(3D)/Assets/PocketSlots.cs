@@ -22,6 +22,7 @@ public class PocketSlots : MonoBehaviour
     public void Start()
     {
         pocketItems = new GameObject[2];
+        Debug.Log("Pocket Items Length: " + pocketItems.Length);
     }
 
     /// <summary>
@@ -40,21 +41,28 @@ public class PocketSlots : MonoBehaviour
         if (slotReturn == 0)
         {
             //adding item to the pocket array
-            GameObject temp = Instantiate(go, new Vector3(0, 0, 0), Quaternion.identity);
-            pocketItems[slotReturn] = temp;
+            //GameObject temp = Instantiate(go, new Vector3(0, 0, 0), Quaternion.identity);
+            //Vector3 scale = temp.transform.lossyScale;
+            pocketItems[slotReturn] = go;
             pocketItems[slotReturn].transform.position = slotPosition[slotReturn].position;
+            pocketItems[slotReturn].transform.SetParent(slotPosition[slotReturn].transform);
+            //pocketItems[slotReturn].transform.localScale = scale;
             //temp.SetActive(false);
-            Destroy(go);
+            //Destroy(go);
             return true;
         }
         if (slotReturn == 1)
         {
             //adding item to the pocket array
-            GameObject temp = Instantiate(go, new Vector3(0, 0, 0), Quaternion.identity);
-            pocketItems[slotReturn] = temp;
+            //GameObject temp = Instantiate(go, new Vector3(0, 0, 0), Quaternion.identity);
+            //Vector3 scale = temp.transform.lossyScale;
+            pocketItems[slotReturn] = go;
             pocketItems[slotReturn].transform.position = slotPosition[slotReturn].position;
+            pocketItems[slotReturn].transform.SetParent(slotPosition[slotReturn].transform);
+            //pocketItems[slotReturn].transform.localScale = scale;
+            //pocketItems[slotReturn].transform.localScale = new Vector3(1, 1, 1);
             //temp.SetActive(false);
-            Destroy(go);
+            //Destroy(go);
             return true;
         }
         return false;

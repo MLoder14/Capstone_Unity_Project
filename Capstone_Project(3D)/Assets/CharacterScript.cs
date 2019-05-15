@@ -18,7 +18,7 @@ public class CharacterScript : MonoBehaviour
     void Update()
     {
         //this
-        transform.position = Vector3.Lerp(transform.position, FpsController.transform.position, 0.5f);
+        transform.position = FpsController.transform.position;//Vector3.Lerp(transform.position, FpsController.transform.position, 0.5f);
 
         if (!Input.GetKey(KeyCode.Tab))
         {
