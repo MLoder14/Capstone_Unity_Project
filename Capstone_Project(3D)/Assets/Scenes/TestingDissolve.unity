@@ -304,7 +304,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateGlobal: 0
-  materials: []
+  materials:
+  - {fileID: 2100000, guid: 70e64d4e0a2e8fc40a65b89ea2084b05, type: 2}
   width: 0.25
   color: {r: 0, g: 1, b: 0, a: 1}
   intensity: 0
@@ -329,9 +330,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateGlobal: 0
-  materials: []
+  materials:
+  - {fileID: 2100000, guid: 70e64d4e0a2e8fc40a65b89ea2084b05, type: 2}
   noise: 0
-  texture1: {fileID: 0}
+  texture1: {fileID: 2800000, guid: 0226b910585f43045806371d38869742, type: 3}
   texture1Tiling: {x: 1, y: 1}
   texture1Offset: {x: 0, y: 0}
   texture1Scroll: {x: 0, y: 0, z: 0}
@@ -389,7 +391,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateGlobal: 0
-  materials: []
+  materials:
+  - {fileID: 2100000, guid: 70e64d4e0a2e8fc40a65b89ea2084b05, type: 2}
   spotLight1: {fileID: 1798768686}
   spotLight2: {fileID: 0}
   spotLight3: {fileID: 0}
@@ -509,7 +512,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: d51b80bc59bda244f99ab79b4827daf2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -646,7 +649,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 70e64d4e0a2e8fc40a65b89ea2084b05, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
