@@ -4,13 +4,14 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Wooden_planks_set
   m_Shader: {fileID: 4800000, guid: d9f081e7b97927d4b848a322747a5819, type: 3}
   m_ShaderKeywords: _DETAIL_MULX2 _DISSOLVEALPHASOURCE_TWO_CUSTOM_MAPS _DISSOLVEEDGEDISTORTIONSOURCE_CUTOUT_SOURCE
-    _DISSOLVEGLOBALCONTROL_ALL _DISSOLVEMAPPINGTYPE_TRIPLANAR _DISSOLVEMASK_SPHERE
-    _EMISSION _METALLICGLOSSMAP _NORMALMAP
+    _DISSOLVEGLOBALCONTROL_ALL _DISSOLVEMAPPINGTYPE_TRIPLANAR _DISSOLVEMASK_CONE _EMISSION
+    _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -114,7 +115,7 @@ Material:
     - _DissolveGlobalControl: 3
     - _DissolveMainMapTiling: 1
     - _DissolveMappingType: 1
-    - _DissolveMask: 3
+    - _DissolveMask: 6
     - _DissolveMaskAxis: 0
     - _DissolveMaskCount: 0
     - _DissolveMaskInvert: 1
