@@ -1,7 +1,30 @@
+<<<<<<< HEAD
 fileFormatVersion: 2
 guid: f93a65209bfa4344d9e711467831753f
 DefaultImporter:
   externalObjects: {}
+=======
+fileFormatVersion: 1
+guid: 85af50ee41bfd9c4fbd8107aee814c50
+PluginImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  isOverridable: 0
+  platformData:
+    Android:
+      enabled: 1
+      settings:
+        CPU: ARM64
+    Any:
+      enabled: 0
+      settings: {}
+    Editor:
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+>>>>>>> 6dfb3c24b3771fbe69a67d5f164590d97b17b6a5
   userData: 
   assetBundleName: 
   assetBundleVariant: 
