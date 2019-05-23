@@ -6,10 +6,33 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: lambert1
+    2100002: lambertWalls
+    2100004: lambertWhite
+    2100006: Floor_Trim
     2300000: //RootNode
     3300000: //RootNode
     4300000: Room_2
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Trim
+    second: {fileID: 2100000, guid: 743f775c81ca08249978a62a990bf1a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 16302414c2dd7d2459e76cbd11206258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambertWalls
+    second: {fileID: 2100000, guid: 8d26e8f89f9cb274c9ebd901063dc22b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambertWhite
+    second: {fileID: 2100000, guid: eccea76420af2694d87fd6910e1f4d6d, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
