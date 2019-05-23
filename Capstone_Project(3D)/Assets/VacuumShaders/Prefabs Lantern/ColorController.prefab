@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4480632748097622773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4480632748097622774}
+  - component: {fileID: 4480632748097622775}
+  - component: {fileID: 4480632748097622772}
+  m_Layer: 0
+  m_Name: ColorController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4480632748097622774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4480632748097622773}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1218401, y: 2.3351195, z: -0.00059461594}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4480632748097622775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4480632748097622773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd75234735d39a46ba22799f293f665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateGlobal: 0
+  materials:
+  - {fileID: 2100000, guid: 70e64d4e0a2e8fc40a65b89ea2084b05, type: 2}
+  noise: 0.31
+  texture1: {fileID: 2800000, guid: c1bb91de79e1d6647a47e6c5de27c6a7, type: 3}
+  texture1Tiling: {x: 1, y: 1}
+  texture1Offset: {x: 0, y: 0}
+  texture1Scroll: {x: 0, y: 0, z: 0}
+  texture2: {fileID: 0}
+  texture2Tiling: {x: 1, y: 1}
+  texture2Offset: {x: 0, y: 0}
+  texture2Scroll: {x: 0, y: 0, z: 0}
+  texture3: {fileID: 0}
+  texture3Tiling: {x: 1, y: 1}
+  texture3Offset: {x: 0, y: 0}
+  texture3Scroll: {x: 0, y: 0, z: 0}
+  uvSet: 0
+  textureBlend: 0
+--- !u!114 &4480632748097622772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4480632748097622773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2441fa57f5b7a49bd402830b724185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateGlobal: 0
+  materials:
+  - {fileID: 2100000, guid: 70e64d4e0a2e8fc40a65b89ea2084b05, type: 2}
+  width: 0.25
+  color: {r: 0, g: 1, b: 0, a: 1}
+  intensity: 0
+  shape: 1
+  texture: {fileID: 0}
+  reverse: 0
+  blur: 0
+  alphaOffset: 0
+  phaseOffset: 0
+  isDynamic: 0
+  GIMultyplier: 0

@@ -267,7 +267,37 @@ ModelImporter:
     4300098: pCylinder22
     4300100: polySurface30
     2186277476908879412: ImportLogs
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BallRoom_Walls
+    second: {fileID: 2100000, guid: e2ac94e916b19ee4ea2edb6947bd745c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ballroom_Ceiling
+    second: {fileID: 2100000, guid: 73a8fb7760e490b4183438dd6a61c140, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ballroom_Floor
+    second: {fileID: 2100000, guid: dc8dfe279dd2a9849a5be5821cf9b586, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ballroom_Pillars_Small
+    second: {fileID: 2100000, guid: fa79a31b961f98c47b666f0015d82a20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ballroom_Walkway
+    second: {fileID: 2100000, guid: c9050ea9d86fcb2449d738431ab968fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillars_Big_Ballroom
+    second: {fileID: 2100000, guid: 2cfcab88202ba174ca0e34f85ae79199, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

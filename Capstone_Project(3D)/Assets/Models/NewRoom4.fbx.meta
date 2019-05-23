@@ -12,7 +12,27 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: Room_4
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling
+    second: {fileID: 2100000, guid: b96f7109d785d4244942357dd7b4a109, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sunroom_Floor
+    second: {fileID: 2100000, guid: 77f4bdb7a3a86324f88a3f026c7f79a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Walls_Sunroom
+    second: {fileID: 2100000, guid: 514a4b58405f1b14687c7632ba34e3da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 05ce4109bd52e4648b9469c55165092b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
