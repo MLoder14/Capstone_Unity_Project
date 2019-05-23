@@ -181,6 +181,9 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{f6fb1b4c-3fa0-4081-abec-629d9aa91d26}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<property name="playlistMode">
 			<value>1</value>
 		</property>
@@ -504,6 +507,7 @@
 		<relationship name="effects">
 			<destination>{dc61f5d7-c852-4926-8d08-f4a00e32487b}</destination>
 			<destination>{d7f77311-c259-4779-aa82-148ab1ff12ac}</destination>
+			<destination>{789c66c7-fede-44fc-9d3b-ae05abb4041a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{636c199d-e145-4070-aabe-ae3e2b09b916}" />
@@ -885,6 +889,14 @@
 			<value>-13.4482765</value>
 		</property>
 	</object>
+	<object class="SFXReverbEffect" id="{789c66c7-fede-44fc-9d3b-ae05abb4041a}">
+		<property name="decayTime">
+			<value>3000</value>
+		</property>
+		<property name="wetLevel">
+			<value>-8</value>
+		</property>
+	</object>
 	<object class="AutomationCurve" id="{8e76afaf-d26b-4945-893b-83dd063d809d}">
 		<relationship name="parameter">
 			<destination>{8b86d1ee-3879-431e-85c8-bfca447642ce}</destination>
@@ -1028,7 +1040,7 @@
 			<value>0</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-47.5</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.368497282</value>
@@ -1039,7 +1051,7 @@
 			<value>0.50193348801237436</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>7</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{24d53040-1112-4322-b5c2-2a76e4b337d3}">

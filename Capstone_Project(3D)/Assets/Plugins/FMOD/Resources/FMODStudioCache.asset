@@ -28,7 +28,7 @@ MonoBehaviour:
   - {fileID: 114187759697425822}
   StringsBanks:
   - {fileID: 114397616531903626}
-  stringsBankWriteTime: 636941667479562067
+  stringsBankWriteTime: 636942131800134290
   cacheVersion: 3
 --- !u!114 &114003496779977446
 MonoBehaviour:
@@ -220,17 +220,17 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114365076691919736}
-  - {fileID: 114250771417378484}
-  - {fileID: 114406330400047206}
-  - {fileID: 114289991186404618}
-  - {fileID: 114146828709421388}
-  - {fileID: 114957381923554204}
-  - {fileID: 114512130073219188}
-  - {fileID: 114767485736995378}
-  - {fileID: 114106401391961616}
-  - {fileID: 114056282882528418}
-  - {fileID: 114234491342472534}
+  - {fileID: 114582779686708276}
+  - {fileID: 114214419471702580}
+  - {fileID: 114316216082531040}
+  - {fileID: 114854095661714174}
+  - {fileID: 114888372556098838}
+  - {fileID: 114342691964649588}
+  - {fileID: 114268916528066216}
+  - {fileID: 114451440216314834}
+  - {fileID: 114993407964771036}
+  - {fileID: 114706393499631500}
+  - {fileID: 114339699324774908}
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
@@ -386,7 +386,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114062661367924640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -607,7 +607,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114107430849152640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -794,7 +794,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114147232775819644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -863,6 +863,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114155829685123046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114157691469923776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -979,11 +996,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: D:\userData\Unity Projects\CapstoneGit\Capstone_Unity_Project\Capstone_Project(3D)\FMOD\Build\Desktop\Master.bank
   SubDir: 
-  lastModified: 636941667479422445
+  lastModified: 636942131800034789
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 10726816
+    Value: 10727008
   Exists: 1
 --- !u!114 &114189270044170482
 MonoBehaviour:
@@ -1070,6 +1087,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114214419471702580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114218002256525202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1171,7 +1205,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114235392711450548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1290,7 +1324,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114255007752212696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1359,6 +1393,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114268916528066216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114270765163590166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1517,7 +1568,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114293143316686614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1555,11 +1606,11 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 114399271699499060}
-  - {fileID: 114826771631139370}
-  - {fileID: 114566499712083812}
-  - {fileID: 114470489520131200}
-  - {fileID: 114322341841733986}
+  - {fileID: 114686408511090554}
+  - {fileID: 114692257553795410}
+  - {fileID: 114681667368227286}
+  - {fileID: 114535996819997052}
+  - {fileID: 114155829685123046}
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
@@ -1648,6 +1699,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114316216082531040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114317656280552662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1715,7 +1783,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114325566467170916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1835,6 +1903,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114339699324774908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114340881305058432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1886,6 +1971,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114342691964649588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114343823976333142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1987,7 +2089,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114365647189779674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2240,7 +2342,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: D:\userData\Unity Projects\CapstoneGit\Capstone_Unity_Project\Capstone_Project(3D)\FMOD\Build\Desktop\Master.strings.bank
   SubDir: 
-  lastModified: 636941667479562067
+  lastModified: 636942131800134290
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -2262,7 +2364,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114401015003769992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2330,7 +2432,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114408952036855456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2557,6 +2659,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114451440216314834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114453582897597982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2766,7 +2885,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114472236562782034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2970,7 +3089,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114512895550723778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3141,6 +3260,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114535996819997052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114540272113818708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3389,7 +3525,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114566773861671234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3475,6 +3611,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114582779686708276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114592048022155314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3821,6 +3974,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114681667368227286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114686408511090554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114690485352636786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3855,6 +4042,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114692257553795410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114692336320711500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3962,6 +4166,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114706393499631500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114713167600754476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4471,7 +4692,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114767576128042394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4969,7 +5190,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114833583539982340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5089,6 +5310,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114854095661714174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114858833331842924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5293,6 +5531,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114888372556098838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114889247841850002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5791,7 +6046,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114964872475210596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5962,6 +6217,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114993407964771036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114995658501463008
 MonoBehaviour:
   m_ObjectHideFlags: 0
