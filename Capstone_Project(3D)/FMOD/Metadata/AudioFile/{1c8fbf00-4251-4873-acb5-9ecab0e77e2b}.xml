@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{1c8fbf00-4251-4873-acb5-9ecab0e77e2b}">
+		<property name="assetPath">
+			<value>BootsOnTile13.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.73911564625850346</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95db98e4-066e-4e10-b2bc-1fa97e14fb40}</destination>
+		</relationship>
+	</object>
+</objects>

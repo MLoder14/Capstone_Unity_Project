@@ -108,11 +108,11 @@ public class PocketSlots : MonoBehaviour
     /// <returns></returns>
     public int CheckSlots()
     {
-        if (slots[0] == null)
+        if (pocketItems[0] == null)
         {
             return 0;
         }
-        if (slots[1] == null)
+        if (pocketItems[1] == null)
         {
             return 1;
         }

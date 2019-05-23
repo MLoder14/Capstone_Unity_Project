@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{de5ef7d7-48d3-4af1-b08a-02cef038f19c}">
+		<property name="assetPath">
+			<value>CreepySounds/Screaming/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95db98e4-066e-4e10-b2bc-1fa97e14fb40}</destination>
+		</relationship>
+	</object>
+</objects>

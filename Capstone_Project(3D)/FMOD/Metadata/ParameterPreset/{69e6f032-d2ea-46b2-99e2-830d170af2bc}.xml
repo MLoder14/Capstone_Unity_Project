@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{69e6f032-d2ea-46b2-99e2-830d170af2bc}">
+		<property name="name">
+			<value>RocksParameter</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6c03a6c0-e1ee-4608-9c3b-d5fd166cf39e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3f41a4e4-2c28-429c-a4fb-84b843dbd3a5}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3f41a4e4-2c28-429c-a4fb-84b843dbd3a5}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.10000000894069672</value>
+		</property>
+	</object>
+</objects>

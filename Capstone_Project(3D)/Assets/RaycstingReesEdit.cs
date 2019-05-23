@@ -117,8 +117,10 @@ public class RaycstingReesEdit : MonoBehaviour
                 
                 if (HandFull != true)
                 {
+                    Debug.Log("Hand wasn't full");
                     if(hit.collider.transform.parent != null)
                     {
+                        Debug.Log("Parent wasn't null");
                         if (hit.collider.transform.parent.tag == "Pouch")
                         {
                             item = hit.collider.gameObject;
@@ -164,7 +166,7 @@ public class RaycstingReesEdit : MonoBehaviour
         }
 
         //Drop item
-        if (Input.GetKeyUp(KeyCode.R) && ItemSlots[0] != null)
+        if (Input.GetKeyUp(KeyCode.T) && ItemSlots[0] != null)
         {
             ItemSlots[0].gameObject.GetComponent<Rigidbody>().isKinematic = false;
             ItemSlots[0].gameObject.GetComponent<Rigidbody>().useGravity = true;

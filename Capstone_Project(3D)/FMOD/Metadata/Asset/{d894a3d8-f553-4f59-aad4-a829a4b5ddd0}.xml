@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{d894a3d8-f553-4f59-aad4-a829a4b5ddd0}">
+		<property name="assetPath">
+			<value>CreepySounds/Money/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95db98e4-066e-4e10-b2bc-1fa97e14fb40}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -8,6 +8,11 @@ TagManager:
   - unlockZone
   - PickupItem
   - placementZone
+  - Carpet:Material
+  - Ice:Material
+  - Snow:Material
+  - Tile:Material
+  - Rocks:Material
   layers:
   - Default
   - TransparentFX

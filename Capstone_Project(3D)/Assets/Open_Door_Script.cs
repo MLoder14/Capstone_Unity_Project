@@ -7,6 +7,8 @@ public class Open_Door_Script : MonoBehaviour
     private Animator animator;
     private bool PlayerPresent = false;
 
+    public GameObject SoundEmitter;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class Open_Door_Script : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && PlayerPresent == true)
         {
             animator.SetBool("Door_Open", true);
+            SoundEmitter.SetActive(true);
         }
     }
 
@@ -37,4 +40,5 @@ public class Open_Door_Script : MonoBehaviour
             PlayerPresent = false;
         }
     }
+
 }
