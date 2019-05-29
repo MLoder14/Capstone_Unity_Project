@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Dupe
   m_Shader: {fileID: 4800000, guid: 0eb4419a161c539409c94325c8e86336, type: 3}
-  m_ShaderKeywords: _DISSOLVEALPHASOURCE_MAIN_MAP_ALPHA _DISSOLVEEDGETEXTURESOURCE_NONE
+  m_ShaderKeywords: _DISSOLVEALPHASOURCE_CUSTOM_MAP _DISSOLVEEDGETEXTURESOURCE_NONE
     _DISSOLVEGLOBALCONTROL_NONE _DISSOLVEMAPPINGTYPE_NORMAL _DISSOLVEMASKCOUNT_ONE
     _DISSOLVEMASK_CONE _DISSOLVEMASK_NONE
   m_LightmapFlags: 4
@@ -82,7 +82,7 @@ Material:
     - _Cull: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
-    - _DissolveAlphaSource: 0
+    - _DissolveAlphaSource: 1
     - _DissolveAlphaSourceTexturesUVSet: 0
     - _DissolveCutoff: 0.25
     - _DissolveEdgeColorIntensity: 0
