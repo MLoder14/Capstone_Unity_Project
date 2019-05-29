@@ -5,6 +5,7 @@ using UnityEngine;
 public class LenseSwitcher : MonoBehaviour
 {
     public GameObject[] lights;
+    public GameObject dissolveLight;
 
     //public Light spotlight; == 0
     //public Light dissolve_spotlight; == 1
@@ -17,6 +18,8 @@ public class LenseSwitcher : MonoBehaviour
     void Start()
     {
         lights[currentLight].SetActive(true);
+        dissolveLight.transform.Rotate(new Vector3(0, 180, 0));
+        //maskController.SetActive(false);
     }
 
     // Update is called once per frame
@@ -37,6 +40,16 @@ public class LenseSwitcher : MonoBehaviour
     public void NextLight()
     {
         currentLight = (currentLight + 1) % lights.Length;
+        if(currentLight == 2)// && dissolveLight.transform.rotation.y == 0)
+        {
+            dissolveLight.transform.Rotate(new Vector3(0,180,0));
+            //enableMask();
+        }
+        else if(currentLight == 0)// && dissolveLight.transform.rotation.y == 180)
+        {
+            dissolveLight.transform.Rotate(new Vector3(0, 180, 0));
+            //disableMask();
+        }
     }
 
     public void PreviousLight()
@@ -47,5 +60,15 @@ public class LenseSwitcher : MonoBehaviour
         }
         else
         currentLight = (currentLight - 1);
+    }
+
+    private void enableMask()
+    {
+        //maskController.SetActive(true);
+    }
+
+    private void disableMask()
+    {
+       // maskController.SetActive(false);
     }
 }

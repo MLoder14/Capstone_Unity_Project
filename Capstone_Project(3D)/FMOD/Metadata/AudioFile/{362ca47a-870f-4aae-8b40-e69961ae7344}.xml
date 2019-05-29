@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{362ca47a-870f-4aae-8b40-e69961ae7344}">
+		<property name="assetPath">
+			<value>MonsterAttack/425373__soundholder__animals-stag-roaring-multiple-times-with-saw-and-dogs-in-background-stereoxy.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>74.581333333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95db98e4-066e-4e10-b2bc-1fa97e14fb40}</destination>
+		</relationship>
+	</object>
+</objects>

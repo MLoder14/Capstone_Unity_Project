@@ -14,7 +14,37 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: pCylinder1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: b7c87e5b68118e8448c9d605fe36e459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 67816897c892f9647ad115b0ade95638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: ea21edd88d386f3468e226caec8a7812, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 71b1466441ac8d1469b9448649455654, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: c20b3fc387b9ea4488e505b3154efbca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phongE1
+    second: {fileID: 2100000, guid: 9cbb8cfb6b70ff8478b23600452b9484, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

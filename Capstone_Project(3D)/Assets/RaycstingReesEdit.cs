@@ -54,7 +54,7 @@ public class RaycstingReesEdit : MonoBehaviour
         Debug.DrawRay(transform.position, forward, Color.green);
 
         //if the ray cast hits something shoot it out in the debug log for testing.
-        if (Physics.Raycast(transform.position, (forward), out hit, 2.0f, layerMask))
+        if (Physics.Raycast(transform.position, (forward), out hit, 3.0f, layerMask))
         {
             theDistance = hit.distance;
             //print(theDistance + " " + hit.collider.gameObject.name);
@@ -153,7 +153,7 @@ public class RaycstingReesEdit : MonoBehaviour
                         item = hit.collider.gameObject;
 
                         GameObject temp = Instantiate(item.GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);
-
+                        temp.transform.Rotate(180, 0, 0);
                         ItemSlots[0] = temp;
                         ItemSlots[0].transform.position = HandSlots[0].transform.position;
                         ItemSlots[0].transform.SetParent(HandSlots[0].transform);

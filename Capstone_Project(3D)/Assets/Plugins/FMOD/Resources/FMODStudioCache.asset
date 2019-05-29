@@ -23,12 +23,14 @@ MonoBehaviour:
   - {fileID: 114281157498446186}
   - {fileID: 114627065036702670}
   - {fileID: 114028580727522518}
+  - {fileID: 114085532667318492}
+  - {fileID: 114267533650250042}
   EditorParameters: []
   MasterBanks:
   - {fileID: 114187759697425822}
   StringsBanks:
   - {fileID: 114397616531903626}
-  stringsBankWriteTime: 636942131800134290
+  stringsBankWriteTime: 636947337345266068
   cacheVersion: 3
 --- !u!114 &114003496779977446
 MonoBehaviour:
@@ -47,6 +49,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114003524747682876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114004082406137194
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +100,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114006339622458828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114008505744110534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,6 +168,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114016973842868624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114018228657199274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114022956212360658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,6 +219,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114024892792156440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114025101398474446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +249,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/IceParameter
   m_EditorClassIdentifier: 
   Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114026145384320320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -220,17 +324,17 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 114582779686708276}
-  - {fileID: 114214419471702580}
-  - {fileID: 114316216082531040}
-  - {fileID: 114854095661714174}
-  - {fileID: 114888372556098838}
-  - {fileID: 114342691964649588}
-  - {fileID: 114268916528066216}
-  - {fileID: 114451440216314834}
-  - {fileID: 114993407964771036}
-  - {fileID: 114706393499631500}
-  - {fileID: 114339699324774908}
+  - {fileID: 114432283892925678}
+  - {fileID: 114159644325073906}
+  - {fileID: 114747262929862378}
+  - {fileID: 114517363523473736}
+  - {fileID: 114422233598786122}
+  - {fileID: 114747496800062470}
+  - {fileID: 114892578452350350}
+  - {fileID: 114460149495213810}
+  - {fileID: 114600220056256082}
+  - {fileID: 114100116992159734}
+  - {fileID: 114095202307450752}
   MinDistance: 1
   MaxDistance: 20
   Length: 4000
@@ -251,6 +355,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114030944385443080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114031064545785260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,6 +423,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114038917530280134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114039122330529070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -315,6 +453,57 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/SnowParameter
   m_EditorClassIdentifier: 
   Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114039579995661228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114044233994531536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114047115632973462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
   Min: 0
   Max: 1
   Default: 0
@@ -336,6 +525,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114049371493534364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114051007643363100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114051776620801296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,6 +610,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114058062793975722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114059541896244512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114061154946738508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114062640764556330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114062661367924640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -404,7 +695,58 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114064897514362876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114065390961872476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114069527659778328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114069841375600568
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -438,6 +780,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114072066865595294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114075529397689384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114075903840838592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -451,6 +827,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114078096926589250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
   Min: 0
   Max: 1
   Default: 0
@@ -472,6 +865,46 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114085389507691394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114085532667318492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MonsterFootsteps
+  m_EditorClassIdentifier: 
+  Path: event:/MonsterFootsteps
+  guid: d486242560be824ead53c435c6bd7127
+  Banks:
+  - {fileID: 114187759697425822}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 160
 --- !u!114 &114085662089339494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -523,6 +956,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114092127154792492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114092425138167944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114094555376465144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,6 +1003,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/RocksParameter
   m_EditorClassIdentifier: 
   Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114095202307450752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
   Min: 0
   Max: 1
   Default: 0
@@ -557,6 +1041,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114096718489947520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114098058682803136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -574,6 +1075,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114099102357702088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114100116992159734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114100742320716752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -642,6 +1177,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114112862666971206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114114213574603484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114117322592213488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114117572355250150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -693,6 +1279,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114123696445496528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114123966260265380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -723,6 +1326,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114124386190126924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -778,6 +1398,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114138927600376292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114141133984119564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114146828709421388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -846,6 +1500,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114150239438393236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114150746018573246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114151387576805142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114151462635969228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -859,6 +1564,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/SnowParameter
   m_EditorClassIdentifier: 
   Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114152085452605140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114155125377093026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
   Min: 0
   Max: 1
   Default: 0
@@ -879,7 +1618,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &114156885350540026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114157691469923776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -897,6 +1653,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114159644325073906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114160735203920240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -914,6 +1687,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114163136343729138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114169227913349506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114171476089351670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114175032654867594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -927,6 +1751,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/SnowParameter
   m_EditorClassIdentifier: 
   Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114175274229190590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114175423919853342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
   Min: 0
   Max: 1
   Default: 0
@@ -982,6 +1840,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114187586616804608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114187759697425822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -996,12 +1871,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: D:\userData\Unity Projects\CapstoneGit\Capstone_Unity_Project\Capstone_Project(3D)\FMOD\Build\Desktop\Master.bank
   SubDir: 
-  lastModified: 636942131800034789
+  lastModified: 636947337345186208
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 10727008
+    Value: 11920640
   Exists: 1
+--- !u!114 &114188800037765648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114189270044170482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1019,6 +1911,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114189581969718362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114191299537530422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114191987382665260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114194417070633806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114199145953148414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1036,7 +1996,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114202350546568962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114202641707514652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114203619037527828
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1087,6 +2081,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114210253848722104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114214419471702580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1103,7 +2114,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114218002256525202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1138,6 +2149,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114225446618683890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114227831156431246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1155,6 +2183,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114229867951016680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114231546546369328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114232100080804482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1168,6 +2230,23 @@ MonoBehaviour:
   m_Name: parameter:/CreepyNoises/CupsParameter
   m_EditorClassIdentifier: 
   Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114234003658424594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
   Min: 0
   Max: 1
   Default: 0
@@ -1274,6 +2353,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114241734140890574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114241760271161258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1291,6 +2387,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114246106163126910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114246911975151410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114249076564156446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,6 +2455,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114251771430258660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114255007752212696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1338,6 +2485,40 @@ MonoBehaviour:
   m_Name: parameter:/CreepyNoises/PaperParameter
   m_EditorClassIdentifier: 
   Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114257124654193926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114258142715604356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -1359,6 +2540,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114261792141365874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114263453816132524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1376,6 +2574,63 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114266160508140718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114267092407061516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114267533650250042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MonsterAttack
+  m_EditorClassIdentifier: 
+  Path: event:/MonsterAttack
+  guid: d65774275eb79846b267b62f1016bfc3
+  Banks:
+  - {fileID: 114187759697425822}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &114267569308463948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1409,7 +2664,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &114269763347356542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114270765163590166
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1461,6 +2733,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114273387195488760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114275601903583926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114275823773678898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1478,6 +2784,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114276481408846350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114276728959086504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,6 +2814,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/LightParameter
   m_EditorClassIdentifier: 
   Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114277421007764568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
   Min: 0
   Max: 1
   Default: 0
@@ -1535,6 +2875,57 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 41000
+--- !u!114 &114281273973348260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114283592979450198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114285836326521780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114285931848367328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1548,6 +2939,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/LightParameter
   m_EditorClassIdentifier: 
   Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114287533600048980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
   Min: 0
   Max: 1
   Default: 0
@@ -1569,7 +2977,58 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114292789393810786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114293143316686614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114293654939385540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114294093159410228
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1606,11 +3065,11 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 114686408511090554}
-  - {fileID: 114692257553795410}
-  - {fileID: 114681667368227286}
-  - {fileID: 114535996819997052}
-  - {fileID: 114155829685123046}
+  - {fileID: 114861175253860616}
+  - {fileID: 114498864695974292}
+  - {fileID: 114480813746803620}
+  - {fileID: 114878251672179830}
+  - {fileID: 114062640764556330}
   MinDistance: 0
   MaxDistance: 0
   Length: 1000
@@ -1648,6 +3107,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114300475313598592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114303439407674792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114306451641034196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114310281676403222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114311287349278158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1715,7 +3242,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114317656280552662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1784,6 +3311,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114323225869474764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114324285138604292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114325566467170916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1797,6 +3358,57 @@ MonoBehaviour:
   m_Name: parameter:/CreepyNoises/BellsParameter
   m_EditorClassIdentifier: 
   Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114326915785991900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114327250071722322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114328975934108916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
   Min: 0
   Max: 1
   Default: 0
@@ -1818,6 +3430,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114330751946945456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114331687322693330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114331842065337944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1835,6 +3481,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114332475769774082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114334426410784624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1848,6 +3511,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/SnowParameter
   m_EditorClassIdentifier: 
   Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114335211164885102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
   Min: 0
   Max: 1
   Default: 0
@@ -1903,6 +3583,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114338148426388424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114339699324774908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1919,7 +3616,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114340881305058432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1987,7 +3684,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114343823976333142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2005,6 +3702,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114346476757238956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114346661646161216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2018,6 +3732,57 @@ MonoBehaviour:
   m_Name: parameter:/CreepyNoises/FirePlaceParameter
   m_EditorClassIdentifier: 
   Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114347576752610560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114350361854059848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114360748791019336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -2039,6 +3804,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114361064361080924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114362468389734714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2056,6 +3838,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114362673043883704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114363461416634492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2107,6 +3906,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114367627885654518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114367795066454746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114369166701481492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114369746497360404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2120,6 +3970,74 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/SnowParameter
   m_EditorClassIdentifier: 
   Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114370573600293642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114371332750116636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114373402357207382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114377399272016780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
   Min: 0
   Max: 1
   Default: 0
@@ -2158,6 +4076,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114379523128124800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114381345067446172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2260,6 +4195,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114389374797866552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114389497937460286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114391147776702178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114392237627168296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2311,6 +4297,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114394004578310566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114397517906272692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2342,11 +4345,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: D:\userData\Unity Projects\CapstoneGit\Capstone_Unity_Project\Capstone_Project(3D)\FMOD\Build\Desktop\Master.strings.bank
   SubDir: 
-  lastModified: 636942131800134290
+  lastModified: 636947337345266068
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1822
+    Value: 1918
   Exists: 1
 --- !u!114 &114399271699499060
 MonoBehaviour:
@@ -2361,6 +4364,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/LightParameter
   m_EditorClassIdentifier: 
   Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114400595790754288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -2399,6 +4419,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114402287896902220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114403683516419208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2412,6 +4449,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/IceParameter
   m_EditorClassIdentifier: 
   Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114404110812858020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
   Min: 0
   Max: 1
   Default: 0
@@ -2467,6 +4521,91 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114410294126173850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114410585914476076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114410724611657406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114414337049679696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114414714241021390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114415222242788292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2501,6 +4640,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114417970477157160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114419337559891430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2531,6 +4687,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/IceParameter
   m_EditorClassIdentifier: 
   Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114420878685356800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
   Min: 0
   Max: 1
   Default: 0
@@ -2569,6 +4742,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114422233598786122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114432283892925678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114437372572023840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114438751403514474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114439421044926836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2582,6 +4823,74 @@ MonoBehaviour:
   m_Name: parameter:/CreepyNoises/AssortedParameter
   m_EditorClassIdentifier: 
   Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114439708749051084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114440665244529054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114441147006307816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114443840652447762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -2675,7 +4984,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114453582897597982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2767,6 +5076,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &114458429874179890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114458853815002958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2784,6 +5110,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114460149495213810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114460646716837438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2814,6 +5157,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114462917781299060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
   Min: 0
   Max: 1
   Default: 0
@@ -2920,6 +5280,91 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114473226691843822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114473885930048088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114475953909398694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114476441514282830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114476743396038900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114477679933936648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2933,6 +5378,23 @@ MonoBehaviour:
   m_Name: parameter:/CreepyNoises/AssortedParameter
   m_EditorClassIdentifier: 
   Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114478409286481350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
   Min: 0
   Max: 1
   Default: 0
@@ -2954,6 +5416,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114480813746803620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114485253297139980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2971,6 +5450,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114486360383138452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114487508250546680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114487538069444370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3039,6 +5552,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114498864695974292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114500161684832426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114500947218875950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3052,6 +5599,91 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/LightParameter
   m_EditorClassIdentifier: 
   Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114501974046752542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114502296817737846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114502308414148430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114504202773218480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114505632546477014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
   Min: 0
   Max: 1
   Default: 0
@@ -3107,6 +5739,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114515322189594608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114515417632826760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3141,6 +5790,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114516510192756162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114517363523473736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114518210008311152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3171,6 +5854,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/RocksParameter
   m_EditorClassIdentifier: 
   Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114519296423168296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
   Min: 0
   Max: 1
   Default: 0
@@ -3243,6 +5943,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114530024164113748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114532910536907242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114533019849941240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114535056999699870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3260,6 +6011,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114535065044530224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114535996819997052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3276,7 +6044,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114540272113818708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3290,6 +6058,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/LightParameter
   m_EditorClassIdentifier: 
   Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114544485747197224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114546428921224266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
   Min: 0
   Max: 1
   Default: 0
@@ -3385,6 +6187,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114553185438243208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114553195395167112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114554498121928680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3441,6 +6277,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 10000
+--- !u!114 &114560020892239536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114561936448637356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114563963443921636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3543,6 +6413,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114567372497501966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114568058432862376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114568432357305632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3577,6 +6481,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114573447717481560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114574798595055166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114579362871619736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3590,6 +6528,23 @@ MonoBehaviour:
   m_Name: parameter:/CreepyNoises/ToysParameter
   m_EditorClassIdentifier: 
   Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114582406779125158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
   Min: 0
   Max: 1
   Default: 0
@@ -3627,7 +6582,75 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &114583253042924284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114584136153173366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114585970687038150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114586638012043622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114592048022155314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3662,6 +6685,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114594329512308760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114595634290482896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3675,6 +6715,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114598218406753170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114600220056256082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
   Min: 0
   Max: 1
   Default: 0
@@ -3696,6 +6770,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114603617192086998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114605177137203616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114606237554797980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114609715255262182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114613200572060232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3709,6 +6851,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/IceParameter
   m_EditorClassIdentifier: 
   Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114616470624773556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
   Min: 0
   Max: 1
   Default: 0
@@ -3838,6 +6997,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 14000
+--- !u!114 &114628544564402236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114629984435365854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114633239091544954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3872,6 +7065,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114635886055913754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114640685271794512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114641647015002858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114642247251636866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114642933485128344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3885,6 +7146,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/IceParameter
   m_EditorClassIdentifier: 
   Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114649460970042914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
   Min: 0
   Max: 1
   Default: 0
@@ -3923,6 +7201,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114655036386761770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114657851566816332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114661109560514174
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3957,6 +7269,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114663616453944890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114668552580216574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3970,6 +7299,57 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/SnowParameter
   m_EditorClassIdentifier: 
   Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114670092868359424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114674291429873962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114681191788659326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
   Min: 0
   Max: 1
   Default: 0
@@ -3990,7 +7370,24 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &114681895876869560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114686408511090554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4007,7 +7404,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114690485352636786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4021,6 +7418,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/LightParameter
   m_EditorClassIdentifier: 
   Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114691832234292988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
   Min: 0
   Max: 1
   Default: 0
@@ -4058,7 +7472,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114692336320711500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4076,6 +7490,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114695748032778872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114698072016177856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114698272315733254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114699266052738732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4089,6 +7554,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/SnowParameter
   m_EditorClassIdentifier: 
   Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114699562076205138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114700375644677754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -4123,6 +7622,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/RocksParameter
   m_EditorClassIdentifier: 
   Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114702588782637552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -4182,7 +7698,58 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
+  Exists: 0
+--- !u!114 &114707734227862822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114709087289111178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 1
+--- !u!114 &114711083967049262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114713167600754476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4251,6 +7818,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114717586517368990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114718276416207294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4298,6 +7882,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/HeavyParameter
   m_EditorClassIdentifier: 
   Name: HeavyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114724579711593214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -4353,6 +7954,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114728381306157248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CupsParameter
+  m_EditorClassIdentifier: 
+  Name: CupsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114730429587418866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114730701751739498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4438,6 +8073,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114747262929862378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114747495798367510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4451,6 +8103,57 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/RocksParameter
   m_EditorClassIdentifier: 
   Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114747496800062470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114748786696458758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114752140984630220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
   Min: 0
   Max: 1
   Default: 0
@@ -4519,6 +8222,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/IceParameter
   m_EditorClassIdentifier: 
   Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114754555317875066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114755087345326266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
   Min: 0
   Max: 1
   Default: 0
@@ -4710,6 +8447,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114767717307238954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114768135366737818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4740,6 +8494,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114771452354738446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
   Min: 0
   Max: 1
   Default: 0
@@ -4791,6 +8562,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/SnowParameter
   m_EditorClassIdentifier: 
   Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114774341732328608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
   Min: 0
   Max: 1
   Default: 0
@@ -4897,6 +8685,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114783903946911304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114786133991754326
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4927,6 +8732,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/IceParameter
   m_EditorClassIdentifier: 
   Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114788991864129510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
   Min: 0
   Max: 1
   Default: 0
@@ -5089,6 +8911,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114813257844190078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114813684230244304
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5106,6 +8945,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114813703756600418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114820962032403992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5119,6 +8975,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114821975275358368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114822346280898226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
   Min: 0
   Max: 1
   Default: 0
@@ -5191,6 +9081,40 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114827155797389356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114828352976205958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114833583539982340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5225,6 +9149,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114841696854812130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114842398643341844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5259,6 +9200,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114846477046020746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114847245768758630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5276,6 +9234,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114847602759588536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114848546730892706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114849819111932988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114851288231790330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5293,6 +9302,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114851782311365930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114852422903853430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5326,7 +9352,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114858833331842924
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5344,6 +9370,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114858941707559786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114859403845018300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114859770678745556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114861175253860616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/LightParameter
+  m_EditorClassIdentifier: 
+  Name: LightParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &114862530305822086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5357,6 +9451,23 @@ MonoBehaviour:
   m_Name: parameter:/CreepyNoises/DoorsParameter
   m_EditorClassIdentifier: 
   Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114866436557949352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
   Min: 0
   Max: 1
   Default: 0
@@ -5395,7 +9506,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114869602594111384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114870302457029870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114872191655992242
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5425,6 +9570,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114878251672179830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114880567525908752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -5476,6 +9655,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/IceParameter
   m_EditorClassIdentifier: 
   Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114886297912874124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
   Min: 0
   Max: 1
   Default: 0
@@ -5547,7 +9743,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114889247841850002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5578,6 +9774,108 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114889617033059628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114890019934807518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114892578452350350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114892712656779768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114898990096730424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114899797123662694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
   Min: 0
   Max: 1
   Default: 0
@@ -5656,6 +9954,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114902902221215400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114905689505058474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5669,6 +9984,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/RocksParameter
   m_EditorClassIdentifier: 
   Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114905830716934660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
   Min: 0
   Max: 1
   Default: 0
@@ -5690,7 +10022,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114906657014834856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114907403656725142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114907993749530048
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5720,6 +10086,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114909550927443174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
   Min: 0
   Max: 1
   Default: 0
@@ -5792,6 +10175,74 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &114914130082113860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/SnowParameter
+  m_EditorClassIdentifier: 
+  Name: SnowParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114918346875682090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114920603165383612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114923856853972360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114926910849375746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5894,6 +10345,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114930546599719880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114933055446830880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5945,6 +10413,57 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114934432262588476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114935412733369522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114937165358333338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114942349501858724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5962,6 +10481,125 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114942389448582796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114942439608267024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/DoorsParameter
+  m_EditorClassIdentifier: 
+  Name: DoorsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114942998168340718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114945079078910152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/RocksParameter
+  m_EditorClassIdentifier: 
+  Name: RocksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114946176527957440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114946683890718744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114946726433652860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114947405220373948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5975,6 +10613,40 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/HeavyParameter
   m_EditorClassIdentifier: 
   Name: HeavyParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114948483097579358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114949047561124884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/TileParameter
+  m_EditorClassIdentifier: 
+  Name: TileParameter
   Min: 0
   Max: 1
   Default: 0
@@ -6047,6 +10719,125 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114957735044540204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/IceParameter
+  m_EditorClassIdentifier: 
+  Name: IceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114957820278632586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114959001431581378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114961627243289138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114963292112131898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114963709615070174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ScreamingParameter
+  m_EditorClassIdentifier: 
+  Name: ScreamingParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114963862650655346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/ToysParameter
+  m_EditorClassIdentifier: 
+  Name: ToysParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114964872475210596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6115,6 +10906,125 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114973061953035714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/AssortedParameter
+  m_EditorClassIdentifier: 
+  Name: AssortedParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114973154498597366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114974479864892816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114974584564020718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/CreaksParameter
+  m_EditorClassIdentifier: 
+  Name: CreaksParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114974954094696142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/PaperParameter
+  m_EditorClassIdentifier: 
+  Name: PaperParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114976000474293618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/FirePlaceParameter
+  m_EditorClassIdentifier: 
+  Name: FirePlaceParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &114976933762438852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/LaughsParameter
+  m_EditorClassIdentifier: 
+  Name: LaughsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114979707433198446
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6128,6 +11038,23 @@ MonoBehaviour:
   m_Name: parameter:/Footsteps/TileParameter
   m_EditorClassIdentifier: 
   Name: TileParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &114981187730736770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/MoneyParameter
+  m_EditorClassIdentifier: 
+  Name: MoneyParameter
   Min: 0
   Max: 1
   Default: 0
@@ -6183,6 +11110,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &114987080108822252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CreepyNoises/BellsParameter
+  m_EditorClassIdentifier: 
+  Name: BellsParameter
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &114990507657508662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6233,7 +11177,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &114995658501463008
 MonoBehaviour:
   m_ObjectHideFlags: 0

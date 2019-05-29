@@ -1,0 +1,3 @@
+To get the assets in the right spot you should just be able to drag 
+the prefab into the heirarchy and it will plop it down in the right spot. 
+Or should.

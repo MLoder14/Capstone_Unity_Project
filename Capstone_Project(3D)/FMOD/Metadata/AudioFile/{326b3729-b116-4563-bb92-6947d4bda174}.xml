@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{326b3729-b116-4563-bb92-6947d4bda174}">
+		<property name="assetPath">
+			<value>MonsterFootsteps/Running/RunningFootsteps (11).wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.24727891156462586</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{95db98e4-066e-4e10-b2bc-1fa97e14fb40}</destination>
+		</relationship>
+	</object>
+</objects>
