@@ -73,17 +73,17 @@ public class MovePin : MonoBehaviour
         if (pinActive == true && pinSet == false)
         { 
             
-            if (Input.GetKey(KeyCode.S))
+            if (Input.GetKey(KeyCode.X))
             {
                 tensionWrenchForceCurrent = Mathf.Clamp(tensionWrenchForceCurrent - tensionWrenchForceBuild, minTension, maxTension);
             }
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.C))
             {
                 tensionWrenchForceCurrent = Mathf.Clamp(tensionWrenchForceCurrent + tensionWrenchForceBuild, minTension, maxTension);
             }
             currentFriction = Mathf.Clamp(tensionWrenchForceCurrent * frictionBuild, minFriction, maxFriction);
             //Debug.Log("TensionWrenchForceCurrent: " + tensionWrenchForceCurrent + " currentFriction: " + currentFriction);
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.Z))
             {
                 if (pinHeight.transform.position.y < maxPinHeight.transform.position.y)
                 {
@@ -130,6 +130,7 @@ public class MovePin : MonoBehaviour
                 pinTop.transform.eulerAngles = new Vector3(pinTop.transform.eulerAngles.x - pinSuccessRotation, pinTop.transform.eulerAngles.y, pinTop.transform.eulerAngles.z);
                 lockController.pinsSet[pinNumber] = true;
                 lockController.calculateMinTension();
+                //lockController.nextPin();
             }
         }
         else if(pinActive && pinHeightRenderer.material.color != Color.blue)

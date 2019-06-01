@@ -60,9 +60,9 @@ public class LockController : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.G))
         {
-            selectedPin = Mathf.Clamp(selectedPin - 1, 0, 3);
+            //selectedPin = Mathf.Clamp(selectedPin - 1, 0, 3);
         }
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.V))
         {
             if (pinControllers[selectedPin].pinSet == true)
             {
@@ -93,13 +93,13 @@ public class LockController : MonoBehaviour
             necessaryMinTension = 0;
             for (int i = 0; i < 4; i++)
             {
-                if (i != currentActivePin)
-                {
+                //if (i != currentActivePin)
+                //{
                     Debug.Log("Current active pin: " + currentActivePin.ToString());
                     pinsSet[i] = false;
                     pinControllers[i].StartCoroutine("failureMoveToStartPosition");
                     
-                }
+                //}
             }
             selectedPin = 0;
         }
@@ -145,5 +145,10 @@ public class LockController : MonoBehaviour
     public void rotateWrench()
     {
         wrenchMovePoint.transform.eulerAngles = new Vector3(wrenchRotationStartEuler.x + (pinObjects[currentActivePin].GetComponent<MovePin>().tensionWrenchForceCurrent/wrenchMoveRate), wrenchRotationStartEuler.y, wrenchRotationStartEuler.z);
+    }
+
+    public void nextPin()
+    {
+        selectedPin = Mathf.Clamp(selectedPin + 1, 0, 3);
     }
 }
