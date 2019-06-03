@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MonsterAttackScript : MonoBehaviour
 {
     public bool damaging = false;
+    public GameObject gameController;
     //doop
 
     public void setDamagingTrue()
@@ -23,6 +24,7 @@ public class MonsterAttackScript : MonoBehaviour
         if (other.tag == "Player" && damaging == true)
         {
             Debug.Log("hit player.");
+            gameController.GetComponent<ResetLocations>().startResetPositions();
             //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }

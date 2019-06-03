@@ -48,6 +48,11 @@ public class LockController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Input.GetKey(KeyCode.O) && Input.GetKey(KeyCode.P))
+        {
+            unlocked = true;
+        }
+
         if(pickMovePoint.transform.parent != pinControllers[selectedPin].pinBottom.transform)
         {
             movePickUnderPin();

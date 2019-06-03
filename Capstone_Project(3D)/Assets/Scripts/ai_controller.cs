@@ -9,7 +9,7 @@ public class ai_controller : MonoBehaviour
     [SerializeField] private GameObject target = null;
     private bool attacking = false;
     private bool searching = false;
-    private bool patrolling = true;
+    public bool patrolling = true;
     
     private Animator anim;
     private Vector3 playerLastKnownPosition;
@@ -48,6 +48,13 @@ public class ai_controller : MonoBehaviour
     {
         patrolTargetNum = 0;
         anim = GetComponent<Animator>();
+        stateSwitcher(PATROLLING);
+    }
+
+    public void init()
+    {
+        //playerLastKnownPosition = null;
+        attacking = false;
         stateSwitcher(PATROLLING);
     }
 
@@ -137,6 +144,10 @@ public class ai_controller : MonoBehaviour
 
     IEnumerator Patrolling()
     {
+        float timer = 1.0f;
+        float currentTime = 0.0f;
+        bool changingTarget = false;
+
         navAgent.isStopped = false;
         setAllAnimParamsFalse();
         anim.SetBool("Creep", true);
@@ -144,8 +155,17 @@ public class ai_controller : MonoBehaviour
         navAgent.SetDestination(patrolTargets[patrolTargetNum].transform.position);
         int checkInRangeReturn;
         patrolling = true;
+        
         while (patrolling == true)
         {
+            if(changingTarget == true)
+            {
+                currentTime += Time.deltaTime;
+                if(currentTime > timer)
+                {
+                    changingTarget = false;
+                }
+            }
             //Debug.Log("running patrol coroutine");
             checkInRangeReturn = checkInRange();
             if (checkInRangeReturn != IDLE)
@@ -155,10 +175,13 @@ public class ai_controller : MonoBehaviour
                 break;
             }
 
-            if (navAgent.remainingDistance < patrolSwitchRange)
+            if (navAgent.remainingDistance < patrolSwitchRange && changingTarget == false)
             {
+                changingTarget = true;
+                currentTime = 0.0f;
                 //Debug.Log("Patrolling: changing target.");
                 patrolTargetNum = (patrolTargetNum + 1) % patrolTargets.Length;
+                Debug.Log("Patrol target num: " + patrolTargetNum.ToString());
                 navAgent.SetDestination(patrolTargets[patrolTargetNum].transform.position);
             }
 
