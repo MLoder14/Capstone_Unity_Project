@@ -95,7 +95,7 @@ Material:
     - _DissolveEdgeTexturePhaseOffset: 0
     - _DissolveEdgeTextureReverse: 0
     - _DissolveEdgeTextureSource: 0
-    - _DissolveEdgeWidth: 0.1
+    - _DissolveEdgeWidth: 0.25
     - _DissolveGIMultiplier: 0
     - _DissolveGlobalControl: 0
     - _DissolveMainMapTiling: 1
@@ -103,9 +103,9 @@ Material:
     - _DissolveMask: 6
     - _DissolveMaskAxis: 0
     - _DissolveMaskCount: 0
-    - _DissolveMaskInvert: -1
+    - _DissolveMaskInvert: 1
     - _DissolveMaskOffset: 0
-    - _DissolveMaskRadius: 0.9099256
+    - _DissolveMaskRadius: 1.339746
     - _DissolveMaskSpace: 0
     - _DissolveNoiseStrength: 0.31
     - _DissolveSourceAlphaTexturesBlend: 0
@@ -127,12 +127,12 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DissolveEdgeColor: {r: 0, g: 0.98978424, b: 1, a: 1}
+    - _DissolveEdgeColor: {r: 0, g: 1, b: 0, a: 1}
     - _DissolveMap1_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMap2_Scroll: {r: 0, g: 0, b: 0, a: 0}
     - _DissolveMap3_Scroll: {r: 0, g: 0, b: 0, a: 0}
-    - _DissolveMaskNormal: {r: 0.9996853, g: 0.025089756, b: -0.000003054156, a: 0}
-    - _DissolveMaskPosition: {r: 153.3734, g: 2.0560002, b: 90.220795, a: 0}
+    - _DissolveMaskNormal: {r: 0.007335849, g: -0.12563103, b: -0.99204993, a: 0}
+    - _DissolveMaskPosition: {r: 122.0368, g: 2.0586, b: 96.612495, a: 0}
     - _Dissolve_ObjectWorldPos: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecularColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
