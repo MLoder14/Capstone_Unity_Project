@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ReesWorking.unity
     guid: 2fcc218cdd77bc746a4f31c4a1db6981
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: 0e6d239253f5cc84987b16a963627ab1
   m_configObjects: {}
