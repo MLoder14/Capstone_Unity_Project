@@ -8,7 +8,7 @@ public class RaycstingReesEdit : MonoBehaviour
     //use that to change that specific pouch bool.
     //public GameObject pouch;
     //public Animator pouchAnimator;
-
+    private PlayerSoundController sounds;
     private Animator pouch;
     private GameObject player; // for the player facing
     private GameObject item;
@@ -31,6 +31,7 @@ public class RaycstingReesEdit : MonoBehaviour
     void Start()
     {
         ItemSlots = new GameObject[2];
+        sounds = GetComponentInParent<PlayerSoundController>();
     }
 
     // Update is called once per frame
@@ -70,6 +71,7 @@ public class RaycstingReesEdit : MonoBehaviour
 
                 if (Input.GetKeyUp(KeyCode.E))
                 {
+                    if(pouch.GetBool("Open") == false) sounds.PlayPocket();
                     pouch.SetBool("Open", true);
                 }
 
@@ -81,7 +83,7 @@ public class RaycstingReesEdit : MonoBehaviour
                     {
                         Debug.Log("Getting in there");
 
-
+                        sounds.PlayPlace();
                         GameObject temp = ItemSlots[0];
                         ItemSlots[0] = null;
                         pouchPocketSlots.AddtoPocket(temp);
@@ -104,6 +106,7 @@ public class RaycstingReesEdit : MonoBehaviour
                 {
                     if (pouch != null)
                     {
+                        if (pouch.GetBool("Open") == true)  sounds.PlayPocket();
                         pouch.SetBool("Open", false);
                     }
 
@@ -123,6 +126,7 @@ public class RaycstingReesEdit : MonoBehaviour
                         Debug.Log("Parent wasn't null");
                         if (hit.collider.transform.parent.tag == "Pouch")
                         {
+                            sounds.PlayPickup();
                             item = hit.collider.gameObject;
                             //Removes the Item from the pockets array. DOES NOT delete or alter object
                             item.GetComponentInParent<PocketSlots>().RemoveFromPocket(item);
@@ -135,6 +139,7 @@ public class RaycstingReesEdit : MonoBehaviour
                         }
                         if (hit.collider.transform.parent.tag == "placementZone")
                         {
+                            sounds.PlayPickup();
                             item = hit.collider.gameObject;
                             //Removes the Item from the pockets array. DOES NOT delete or alter object
                             item.GetComponentInParent<PlacePuzzlePiece>().removePiece();
@@ -150,6 +155,7 @@ public class RaycstingReesEdit : MonoBehaviour
                     }
                     else
                     {
+                        sounds.PlayPickup();
                         item = hit.collider.gameObject;
 
                         GameObject temp = Instantiate(item.GetComponent<AltForm>().altForm, new Vector3(0, 0, 0), Quaternion.identity);

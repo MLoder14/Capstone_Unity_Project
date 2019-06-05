@@ -12,7 +12,10 @@ public class MovePin : MonoBehaviour
     public GameObject pinOpenHeight;
     public GameObject pinHeight;
     public GameObject lockParent;
-    
+
+    [FMODUnity.EventRef]
+    public string InputPinEvent = "event:/PinSet";
+    FMOD.Studio.EventInstance pinSetEvent;
     
     public float tensionWrenchForceBuild;
     public float maxTension;
@@ -50,6 +53,7 @@ public class MovePin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pinSetEvent = FMODUnity.RuntimeManager.CreateInstance(InputPinEvent);
         lockController = lockParent.GetComponent<LockController>();
         pinHeightRenderer = pinHeight.GetComponent<Renderer>();
         unlockZoneCollision = pinHeight.GetComponent<CheckUnlockZoneCollision>();
@@ -126,6 +130,11 @@ public class MovePin : MonoBehaviour
             pinHeightRenderer.material.color = Color.green;
             if(currentFriction == maxFriction)
             {
+
+                //sound here
+                pinSetEvent.start();
+                
+
                 pinSet = true;
                 pinTop.transform.eulerAngles = new Vector3(pinTop.transform.eulerAngles.x - pinSuccessRotation, pinTop.transform.eulerAngles.y, pinTop.transform.eulerAngles.z);
                 lockController.pinsSet[pinNumber] = true;
