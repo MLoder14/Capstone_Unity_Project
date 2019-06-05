@@ -5,6 +5,8 @@ using UnityEngine;
 public class LockController : MonoBehaviour
 {
     //public enum pins {pin1,pin2,pin3,pin4};
+    public FMODUnity.StudioEventEmitter LockEmittter;
+    public FMODUnity.StudioEventEmitter FailEmittter;
     private int selectedPin;
     private int currentActivePin;
     public GameObject[] pinObjects;
@@ -50,6 +52,7 @@ public class LockController : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.O) && Input.GetKey(KeyCode.P))
         {
+            LockEmittter.Play();
             unlocked = true;
         }
 
@@ -79,6 +82,7 @@ public class LockController : MonoBehaviour
         {
             if (pinsSet[0] == true && pinsSet[1] == true && pinsSet[2] == true && pinsSet[3] == true)
             {
+                LockEmittter.Play();
                 unlocked = true;
             }
         }
@@ -100,6 +104,7 @@ public class LockController : MonoBehaviour
             {
                 //if (i != currentActivePin)
                 //{
+                    FailEmittter.Play();
                     Debug.Log("Current active pin: " + currentActivePin.ToString());
                     pinsSet[i] = false;
                     pinControllers[i].StartCoroutine("failureMoveToStartPosition");

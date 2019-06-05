@@ -46,6 +46,7 @@ public class PlacePuzzlePiece : MonoBehaviour
             GameObject temp = player.GetComponent<RaycstingReesEdit>().GetFromHand();
             if (temp != null)//player.GetComponentInChildren<RaycstingReesEdit>().ItemSlots[0] != null)
             {
+                player.GetComponentInParent<PlayerSoundController>().PlayPlace();
                 player.GetComponent<RaycstingReesEdit>().timerOn = true;
                 //piece = Instantiate(player.GetComponentInChildren<RaycstingReesEdit>().ItemSlots[0].GetComponent<AltForm>().altForm, new Vector3(placementZone.transform.position.x, placementZone.transform.position.y, placementZone.transform.position.z), Quaternion.identity);
                 piece = Instantiate(temp.GetComponent<AltForm>().altForm, new Vector3(placementZone.transform.position.x, placementZone.transform.position.y, placementZone.transform.position.z), Quaternion.identity);

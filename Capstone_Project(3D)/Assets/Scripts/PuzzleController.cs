@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PuzzleController : MonoBehaviour
 {
+    [FMODUnity.EventRef]
+    public string InputCompleteEvent;
+    FMOD.Studio.EventInstance puzzleCompleteSound;
+
     private bool activated = false;
 
     //public GameObject[] puzzlePieces;
@@ -13,6 +17,7 @@ public class PuzzleController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        puzzleCompleteSound = FMODUnity.RuntimeManager.CreateInstance(InputCompleteEvent);
         for(int i = 0; i < piecesInPlace.Length; i++)
         {
             piecesInPlace[i] = false;
@@ -32,6 +37,7 @@ public class PuzzleController : MonoBehaviour
         }
         if(allTrue == true)
         {
+            puzzleCompleteSound.start();
             activated = true;
             affectedObject.GetComponent<puzzleControlee>().Activate();
         }
