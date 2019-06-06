@@ -4370,6 +4370,35 @@ CapsuleCollider:
   m_Height: 0.104601234
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0.01}
+--- !u!1 &196208104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164289764154115, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &196208112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196208104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &199834701
 GameObject:
   m_ObjectHideFlags: 0
@@ -9589,6 +9618,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.026378034, y: 0.15156013, z: 0.090065256}
   m_Center: {x: -0.0028071573, y: 0.07736011, z: -0.061280604}
+--- !u!1 &604102355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7058497472735016104, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &604102363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 604102355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &613766505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10543,6 +10601,64 @@ Transform:
   m_Father: {fileID: 1754920821}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &659130919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164289876998599, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &659130927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659130919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &659259433 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486546255593103, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &659259441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659259433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &670630097 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3462593158358020110, guid: fb36b62fa2ae525488875255e898f875,
@@ -14206,6 +14322,35 @@ Transform:
   m_Father: {fileID: 870798767}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -180, y: 0, z: 15.814987}
+--- !u!1 &899798649 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7057292742345254524, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &899798657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899798649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &908798097 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100142, guid: 2836a71abab0630498d1ee37f54d6def,
@@ -14761,6 +14906,35 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 0dd521d8847bb054e9b4d87006c0a90a, type: 3}
+--- !u!1 &947541496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486546246470138, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &947541504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947541496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &949964646 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c78afba3063199542b35bf65720f9be4,
@@ -16358,7 +16532,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1053512029
 Light:
   m_ObjectHideFlags: 0
@@ -18919,6 +19093,35 @@ CapsuleCollider:
   m_Height: 4.9268456
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1189445277 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164290350559030, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1189445285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189445277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1190352617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3462593157691554977, guid: fb36b62fa2ae525488875255e898f875,
@@ -19936,6 +20139,35 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!1 &1272497816 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486547070069309, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1272497824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272497816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1278639171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20913,6 +21145,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1350914138}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1362944739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486548141043567, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1362944747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362944739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1366565585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21610,6 +21871,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1400256465}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1400561096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164289571775811, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1400561104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400561096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1404635565
 GameObject:
   m_ObjectHideFlags: 0
@@ -21837,6 +22127,35 @@ MonoBehaviour:
   NoiseIntensityOffset: 0.3
   NoiseVelocity: {x: 3, y: 3}
   MaxRayLength: 400
+--- !u!1 &1420496484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164290361151334, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1420496492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420496484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1421559641
 GameObject:
   m_ObjectHideFlags: 0
@@ -30158,6 +30477,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1453989266}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1454944960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164290180575243, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1454944968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1454944960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1458160824 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7665172334977848032, guid: a1dcce3aae9bb0842adf1ccddee04ed1,
@@ -32683,6 +33031,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1605981952}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1612228333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486546766280954, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1612228341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612228333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1612792033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34940,6 +35317,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f30e9f7fb86742d4ba781a19cb98776c, type: 3}
+--- !u!1 &1742984381 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7057292743713461060, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1742984389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742984381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1746568682 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2689853730241076675, guid: b1f4aa6b14403c44eb78f5c5f502de9c,
@@ -37356,6 +37762,64 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.026378034, y: 0.15156013, z: 0.090065256}
   m_Center: {x: -0.0028073958, y: 0.07736011, z: -0.06127989}
+--- !u!1 &1837026400 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164289548668913, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1837026408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837026400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1841116743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486546942614319, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1841116751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841116743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1841265502
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37431,6 +37895,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1841265502}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1843010333 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486546467243261, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1843010341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843010333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1853794489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37831,6 +38324,35 @@ Transform:
   m_Father: {fileID: 1210039249689446278}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1863122879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164289495211815, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1863122887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863122879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1866923601
 GameObject:
   m_ObjectHideFlags: 0
@@ -38994,6 +39516,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.026378034, y: 0.15156013, z: 0.090065256}
   m_Center: {x: -0.0028076342, y: 0.07736011, z: -0.06127965}
+--- !u!1 &1954908796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486546624677584, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1954908804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954908796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1957734711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2689853730241076675, guid: b1f4aa6b14403c44eb78f5c5f502de9c,
@@ -40271,6 +40822,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.026378034, y: 0.15156013, z: 0.090065256}
   m_Center: {x: -0.0028071573, y: 0.07736011, z: -0.06127965}
+--- !u!1 &2041696242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486547553158822, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2041696250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041696242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2050989378 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2689853730241076675, guid: b1f4aa6b14403c44eb78f5c5f502de9c,
@@ -41006,6 +41586,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.04112918, y: 0.07256084, z: 0.04112918}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2075405536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7057292742161013526, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2075405544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075405536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2084741230
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41187,6 +41796,35 @@ Transform:
   m_Father: {fileID: 2068249059}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2088811167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7902486547106731973, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2088811175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2088811167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2097927667 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7665172334590680635, guid: a1dcce3aae9bb0842adf1ccddee04ed1,
@@ -41244,6 +41882,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.026378034, y: 0.15156013, z: 0.090065256}
   m_Center: {x: -0.0028071573, y: 0.07736011, z: -0.061280604}
+--- !u!1 &2104627418 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4591164290244168997, guid: 8844d104168b3a34195f436995228a0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1184265021}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2104627426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104627418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Player
+  Event: event:/Snarl
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 1
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2108234038
 PrefabInstance:
   m_ObjectHideFlags: 0
