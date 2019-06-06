@@ -1,0 +1,261 @@
+StartFontMetrics 2.0
+FontName ErasmusInline-Bold
+FullName ErasmusInline Bold
+FamilyName ErasmusInline
+FontBBox -4 -261 1105 810
+Version 001.001
+Weight Bold
+Notice Erasmus (C) Copyright PJL 'MMII
+ItalicAngle  0.00
+IsFixedPitch false
+UnderlinePosition -150
+UnderlineThickness 50
+EncodingScheme FontSpecific
+CapHeight 801
+Ascender 801
+Descender -250
+XHeight 250
+StartCharMetrics 104
+C 32 ; WX 420 ; N space ; B 0 0 0 0 ;
+C 33 ; WX 240 ; N exclam ; B 1 0 239 800 ;
+C 34 ; WX 223 ; N quotedbl ; B 7 673 216 801 ;
+C 35 ; WX 365 ; N numbersign ; B 6 0 359 251 ;
+C 36 ; WX 416 ; N dollar ; B 4 -102 411 352 ;
+C 37 ; WX 805 ; N percent ; B 5 -15 800 719 ;
+C 38 ; WX 1085 ; N ampersand ; B 8 -11 1077 803 ;
+C 39 ; WX 112 ; N quotesingle ; B 3 673 109 800 ;
+C 40 ; WX 277 ; N parenleft ; B 2 -5 281 806 ;
+C 41 ; WX 277 ; N parenright ; B -4 -6 275 805 ;
+C 42 ; WX 256 ; N asterisk ; B 5 558 249 800 ;
+C 43 ; WX 308 ; N plus ; B 6 -5 302 263 ;
+C 44 ; WX 180 ; N comma ; B 4 -89 176 114 ;
+C 45 ; WX 308 ; N minus ; B 41 202 267 230 ;
+C 46 ; WX 180 ; N period ; B 7 0 173 114 ;
+C 47 ; WX 386 ; N slash ; B 1 1 385 802 ;
+C 48 ; WX 443 ; N zero ; B 8 -15 435 258 ;
+C 49 ; WX 301 ; N one ; B 6 0 295 252 ;
+C 50 ; WX 445 ; N two ; B 8 -2 436 258 ;
+C 51 ; WX 403 ; N three ; B 0 -226 399 258 ;
+C 52 ; WX 438 ; N four ; B 4 -250 434 250 ;
+C 53 ; WX 395 ; N five ; B 3 -226 393 252 ;
+C 54 ; WX 443 ; N six ; B 4 -15 439 557 ;
+C 55 ; WX 386 ; N seven ; B 0 -210 372 258 ;
+C 56 ; WX 443 ; N eight ; B 4 -15 439 496 ;
+C 57 ; WX 443 ; N nine ; B 4 -261 439 258 ;
+C 58 ; WX 180 ; N colon ; B 2 0 178 399 ;
+C 59 ; WX 180 ; N semicolon ; B 2 -89 178 399 ;
+C 60 ; WX 182 ; N less ; B 5 30 177 228 ;
+C 61 ; WX 309 ; N equal ; B 14 130 295 230 ;
+C 62 ; WX 182 ; N greater ; B 5 31 177 229 ;
+C 63 ; WX 590 ; N question ; B 6 0 586 801 ;
+C 64 ; WX 901 ; N at ; B 5 -12 896 801 ;
+C 65 ; WX 942 ; N A ; B 6 1 937 806 ;
+C 66 ; WX 1016 ; N B ; B 6 -1 1010 800 ;
+C 67 ; WX 653 ; N C ; B 4 19 649 800 ;
+C 68 ; WX 967 ; N D ; B 6 -1 961 800 ;
+C 69 ; WX 528 ; N E ; B 3 1 526 800 ;
+C 70 ; WX 469 ; N F ; B 3 0 467 800 ;
+C 71 ; WX 726 ; N G ; B 5 19 721 800 ;
+C 72 ; WX 754 ; N H ; B 5 0 749 801 ;
+C 73 ; WX 302 ; N I ; B 2 -1 300 800 ;
+C 74 ; WX 596 ; N J ; B 2 0 592 800 ;
+C 75 ; WX 690 ; N K ; B 4 -1 688 801 ;
+C 76 ; WX 528 ; N L ; B 3 0 526 801 ;
+C 77 ; WX 886 ; N M ; B 5 -1 881 808 ;
+C 78 ; WX 711 ; N N ; B 4 -1 707 810 ;
+C 79 ; WX 771 ; N O ; B 5 19 766 800 ;
+C 80 ; WX 925 ; N P ; B 6 -1 919 800 ;
+C 81 ; WX 807 ; N Q ; B 5 19 802 800 ;
+C 82 ; WX 925 ; N R ; B 6 -1 919 800 ;
+C 83 ; WX 706 ; N S ; B 4 17 702 798 ;
+C 84 ; WX 782 ; N T ; B 5 -1 777 800 ;
+C 85 ; WX 710 ; N U ; B 4 0 706 801 ;
+C 86 ; WX 819 ; N V ; B 4 -1 815 802 ;
+C 87 ; WX 1111 ; N W ; B 6 0 1105 803 ;
+C 88 ; WX 714 ; N X ; B 2 0 712 802 ;
+C 89 ; WX 853 ; N Y ; B 3 1 850 801 ;
+C 90 ; WX 704 ; N Z ; B 2 1 702 801 ;
+C 91 ; WX 277 ; N bracketleft ; B 2 -5 281 806 ;
+C 92 ; WX 386 ; N backslash ; B 1 -1 385 800 ;
+C 93 ; WX 277 ; N bracketright ; B -4 -6 275 805 ;
+C 94 ; WX 335 ; N asciicircum ; B 10 673 325 802 ;
+C 95 ; WX 452 ; N underscore ; B 53 -55 399 -22 ;
+C 96 ; WX 151 ; N grave ; B 4 673 146 800 ;
+C 97 ; WX 508 ; N a ; B 9 -14 499 259 ;
+C 98 ; WX 502 ; N b ; B 3 -15 499 799 ;
+C 99 ; WX 336 ; N c ; B 6 -15 331 258 ;
+C 100 ; WX 508 ; N d ; B 3 -14 505 801 ;
+C 101 ; WX 368 ; N e ; B 7 -15 361 258 ;
+C 102 ; WX 378 ; N f ; B 2 0 374 800 ;
+C 103 ; WX 508 ; N g ; B 5 -251 503 259 ;
+C 104 ; WX 561 ; N h ; B 3 0 558 799 ;
+C 105 ; WX 300 ; N i ; B 4 0 296 399 ;
+C 106 ; WX 240 ; N j ; B 2 -250 238 399 ;
+C 107 ; WX 609 ; N k ; B 4 0 607 799 ;
+C 108 ; WX 300 ; N l ; B 2 0 298 799 ;
+C 109 ; WX 823 ; N m ; B 15 0 809 273 ;
+C 110 ; WX 561 ; N n ; B 10 0 551 273 ;
+C 111 ; WX 443 ; N o ; B 8 -15 435 258 ;
+C 112 ; WX 503 ; N p ; B 5 -250 498 258 ;
+C 113 ; WX 505 ; N q ; B 5 -251 500 258 ;
+C 114 ; WX 402 ; N r ; B 7 0 395 273 ;
+C 115 ; WX 416 ; N s ; B 7 -15 408 258 ;
+C 116 ; WX 301 ; N t ; B 2 -1 299 792 ;
+C 117 ; WX 580 ; N u ; B 11 -8 569 250 ;
+C 118 ; WX 610 ; N v ; B 10 0 600 251 ;
+C 119 ; WX 859 ; N w ; B 14 -17 845 252 ;
+C 120 ; WX 538 ; N x ; B 7 0 531 250 ;
+C 121 ; WX 610 ; N y ; B 4 -247 606 251 ;
+C 122 ; WX 526 ; N z ; B 7 0 517 250 ;
+C 123 ; WX 277 ; N braceleft ; B 2 -5 281 806 ;
+C 124 ; WX 161 ; N bar ; B 1 1 160 799 ;
+C 125 ; WX 277 ; N braceright ; B -4 -6 275 805 ;
+C 126 ; WX 414 ; N asciitilde ; B 12 609 403 779 ;
+C 133 ; WX 514 ; N ellipsis ; B 21 0 493 114 ;
+C 145 ; WX 112 ; N quoteleft ; B 3 673 109 800 ;
+C 146 ; WX 112 ; N quoteright ; B 3 673 109 800 ;
+C 147 ; WX 223 ; N quotedblleft ; B 7 673 216 801 ;
+C 148 ; WX 223 ; N quotedblright ; B 7 673 216 801 ;
+C 149 ; WX 291 ; N bullet ; B 5 208 286 504 ;
+C 163 ; WX 640 ; N sterling ; B 3 1 637 800 ;
+C 164 ; WX 719 ; N currency ; B 3 19 714 800 ;
+C 182 ; WX 837 ; N paragraph ; B 5 -1 832 800 ;
+EndCharMetrics
+StartKernData
+StartKernData
+StartKernPairs 102
+
+KPX A v -89
+KPX A w -89
+KPX A y -89
+
+KPX C v -87
+
+KPX E v -127
+KPX E w -127
+KPX E y -130
+
+KPX F a -124
+KPX F d -124
+KPX F e -124
+KPX F g -123
+KPX F i -119
+KPX F j -119
+KPX F o -124
+KPX F q -124
+KPX F r -119
+KPX F u -119
+KPX F v -119
+KPX F w -119
+KPX F y -119
+
+KPX G v -107
+KPX G w -107
+
+KPX L v -127
+KPX L w -127
+
+KPX O a -91
+
+KPX P a -180
+KPX P e -180
+KPX P d -180
+KPX P o -180
+
+KPX R u -82
+KPX R v -143
+KPX R w -143
+
+KPX T a -170
+KPX T d -170
+KPX T e -170
+KPX T c -170
+KPX T g -170
+KPX T i -169
+KPX T o -170
+KPX T u -180
+KPX T v -180
+KPX T w -180
+KPX T x -169
+KPX T y -180
+KPX T r -169
+KPX T s -174
+
+KPX V a -180
+KPX V e -180
+KPX V i -180
+KPX V o -180
+KPX V q -180
+KPX V r -180
+KPX V u -180
+KPX V j -180
+
+KPX W a -180
+KPX W d -180
+KPX W e -180
+KPX W g -180
+KPX W i -180
+KPX W m -180
+KPX W n -180
+KPX W r -180
+KPX W y -180
+KPX W v -180
+
+KPX Y a -180
+KPX Y o -180
+KPX Y e -180
+KPX Y d -180
+KPX Y q -180
+KPX Y u -180
+KPX Y v -180
+
+KPX a R -180
+KPX a T -180
+KPX a V -180
+KPX a W -180
+
+KPX c T -180
+
+KPX e P -180
+KPX e R -180
+KPX e V -180
+KPX e W -180
+KPX e Y -180
+
+KPX g T -180
+KPX g W -180
+
+KPX i V -180
+
+KPX m U -113
+KPX m W -180
+
+KPX n U -113
+KPX n W -180
+
+KPX o R -180
+KPX o T -180
+KPX o V -180
+KPX o Y -180
+
+KPX q V -180
+
+KPX r T -180
+
+KPX s T -180
+
+KPX u R -180
+KPX u T -180
+KPX u Y -180
+
+KPX v R -180
+
+KPX w T -180
+
+KPX x T -180
+
+KPX y W -180
+
+EndKernPairs
+EndKernData
+EndFontMetrics

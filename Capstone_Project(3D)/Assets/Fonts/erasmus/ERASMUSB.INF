@@ -1,0 +1,19 @@
+FontName (Erasmus-Bold)
+FullName (Erasmus Bold)
+AppleName (Erasmus-Bold)
+FamilyName (Erasmus)
+version (001.001)
+isFixedPitch false
+CharacterSet (custom)
+Encoding (SpecificEncoding)
+ItalicAngle  0
+CapHeight 801
+UnderlinePosition -150
+UnderlineThickness 50
+StemWidth  141
+Serif true
+Pi true
+MSMenuName (Erasmus)
+VPMenuName (Erasmus)
+WORDMenuName (Erasmus)
+VPStyle (B)

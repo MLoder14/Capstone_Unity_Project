@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 74c6b9b5f9213c4418885d2a534209f1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Erasmus
+  fontNames:
+  - Erasmus
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1fa57e1240c79b0478b20618e32c414a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
