@@ -51,7 +51,7 @@ public class RandomNoiseScript : MonoBehaviour
         else if(currentTime >= timeToWait && finished == true)
         {
             Debug.Log("Ended sound coroutine");
-            timeToWait = Random.Range(10.0f, 60.0f);
+            timeToWait = Random.Range(45.0f, 120.0f);
             currentTime = 0.0f;
             started = false;
             finished = false;

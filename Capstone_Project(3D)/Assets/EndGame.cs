@@ -10,7 +10,7 @@ public class EndGame : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            SceneManager.LoadScene("EndGame");
+            SceneManager.LoadScene("EndGameMarcus");
         }
     }
 }

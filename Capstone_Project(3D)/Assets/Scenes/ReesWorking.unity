@@ -10580,7 +10580,7 @@ MeshCollider:
   m_GameObject: {fileID: 651964276}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -20671,7 +20671,7 @@ GameObject:
   - component: {fileID: 1306309105}
   - component: {fileID: 1306309104}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: TinkleEmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20692,7 +20692,7 @@ MonoBehaviour:
   CollisionTag: 
   Event: event:/EndZoneChimes
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -38893,7 +38893,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: a569bb36b2e9def4598f5c5fd66084a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.88
+      value: 1.33
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: a569bb36b2e9def4598f5c5fd66084a1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40126,7 +40126,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017423033}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.000000014901161}
-  m_LocalPosition: {x: -0, y: 1.27, z: 90.49}
+  m_LocalPosition: {x: -0, y: 1.26, z: 89.51}
   m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
   m_Children:
   - {fileID: 2016998043}
