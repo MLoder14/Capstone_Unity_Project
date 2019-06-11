@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿//Script Created By Rees Herbert
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
@@ -41,9 +42,7 @@ public class ai_controller : MonoBehaviour
     [SerializeField] private Vector3 sightRadius = Vector3.zero;
     [SerializeField] private float sightOffset = 0f;
 
-    //[Header("Combat Variables")]
-    //[SerializeField] private float attackPower = 10f;
-
+    //initialize monster ai_controller
     void Start()
     {
         patrolTargetNum = 0;
@@ -51,13 +50,20 @@ public class ai_controller : MonoBehaviour
         stateSwitcher(PATROLLING);
     }
 
+    //reset monster behavior
     public void init()
     {
-        //playerLastKnownPosition = null;
         attacking = false;
         stateSwitcher(PATROLLING);
     }
 
+    /// <summary>
+    /// This function takes in a state case (determined by the previous state that called it)
+    /// and starts the appropriate co-routine, based on the state. It is necessary to stop
+    /// all co-routines because they will eventually build up on the stack otherwise.
+    /// </summary>
+    /// <param name="stateCase"></param>
+    /// <returns></returns>
     private bool stateSwitcher(int stateCase)
     {
         StopAllCoroutines();
@@ -130,7 +136,6 @@ public class ai_controller : MonoBehaviour
         int checkInRangeReturn;
         while (true)
         {
-            //Debug.Log("In idle loop.");
             checkInRangeReturn = checkInRange();
             if (checkInRangeReturn != IDLE)
             {
@@ -142,6 +147,12 @@ public class ai_controller : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// This function sets ai variables to properly engage the patrolling behavior. 
+    /// it then loops until the player is detected. While patrolling once the ai is
+    /// within range of a patrol point it sets the destination to the next patrol point.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator Patrolling()
     {
         float timer = 1.0f;
@@ -166,7 +177,6 @@ public class ai_controller : MonoBehaviour
                     changingTarget = false;
                 }
             }
-            //Debug.Log("running patrol coroutine");
             checkInRangeReturn = checkInRange();
             if (checkInRangeReturn != IDLE)
             {
@@ -179,7 +189,6 @@ public class ai_controller : MonoBehaviour
             {
                 changingTarget = true;
                 currentTime = 0.0f;
-                //Debug.Log("Patrolling: changing target.");
                 patrolTargetNum = (patrolTargetNum + 1) % patrolTargets.Length;
                 Debug.Log("Patrol target num: " + patrolTargetNum.ToString());
                 navAgent.SetDestination(patrolTargets[patrolTargetNum].transform.position);
@@ -189,6 +198,13 @@ public class ai_controller : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// This function sets ai variables to properly engage the pursuit behavior.
+    /// The function loops until the player is either in attack range, or no longer
+    /// in view. The checkInRange() function determines whether or not the player
+    /// is within attack range, or no longer in view.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator Pursuing()
     {
         navAgent.isStopped = false;
@@ -198,7 +214,6 @@ public class ai_controller : MonoBehaviour
         int checkInRangeReturn;
         while (true)
         {
-            //Debug.Log("running pursuit coroutine");
             checkInRangeReturn = checkInRange();
             if (checkInRangeReturn == IDLE)
             {
@@ -207,7 +222,6 @@ public class ai_controller : MonoBehaviour
             }
             if (checkInRangeReturn == ATTACKING)
             {
-                //gotta test
                 stateSwitcher(checkInRangeReturn);
                 break;
             }
@@ -218,6 +232,13 @@ public class ai_controller : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// This function sets ai variables to properly engage the attack behavior.
+    /// The function loops while the attack animation is playing and checks if the
+    /// player is in range. If the player is no longer visible, the function calls
+    /// the state switcher and begins a search.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator Attacking()
     {
         if(anim.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
@@ -232,7 +253,6 @@ public class ai_controller : MonoBehaviour
         int checkInRangeReturn;
         while (attacking == true)
         {
-            //Debug.Log("running attack coroutine");
             checkInRangeReturn = checkInRange();
             yield return null;
         }
@@ -253,6 +273,13 @@ public class ai_controller : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// This function sets ai variables to properly engage the first search behavior.
+    /// The ai will turn on the spot and search for the player. If the player is detected
+    /// the function will begin a pursuit, otherwise the function will call the second 
+    /// search function.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator SearchingFirst()
     {
         navAgent.isStopped = true;
@@ -264,7 +291,6 @@ public class ai_controller : MonoBehaviour
         int checkInRangeReturn;
         while (searching)
         {
-            //Debug.Log("running first search coroutine");
             checkInRangeReturn = checkInRange();
             if (checkInRangeReturn != IDLE)
             {
@@ -277,6 +303,14 @@ public class ai_controller : MonoBehaviour
         stateSwitcher(SEARCHING_SECOND);
     }
 
+    /// <summary>
+    /// This function sets ai variables to properly engage the second search behavior.
+    /// The ai will move to the last direct line of sight location of the player 
+    /// (not determined by gaze, just an unblocked line to the player) and begin another
+    /// search. If the player is detected it will start pursuit, otherwise it will return
+    /// to patrol.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator SearchingSecond()
     {
         bool changedToPursuit = false;
@@ -288,14 +322,11 @@ public class ai_controller : MonoBehaviour
         patrolling = true;
         searching = false;
         navAgent.SetDestination(playerLastKnownPosition);
-        //Instantiate(marker, playerLastKnownPosition, Quaternion.identity);
         yield return null;
         if (navAgent.path.status != NavMeshPathStatus.PathComplete) { yield return null; }
-        //yield return new WaitForSeconds(0.1f);
         int checkInRangeReturn;
         while (patrolling == true)
         {
-            //Debug.Log("running second search coroutine -- move to location");
             checkInRangeReturn = checkInRange();
             if (checkInRangeReturn != IDLE)
             {
@@ -306,20 +337,12 @@ public class ai_controller : MonoBehaviour
             }
             if (navAgent.remainingDistance < patrolSwitchRange)
             {
-                //Debug.Log("in range of playerLastKnownLocation");
-                
                 patrolling = false;
-                //searching = true;
                 break;
             }
 
             yield return null;
         }
-
-
-        //setAllAnimParamsFalse();
-        //anim.SetBool("Idle", true);
-        //yield return null;
 
         searching = true;
         navAgent.isStopped = true;
@@ -328,8 +351,6 @@ public class ai_controller : MonoBehaviour
         anim.SetBool("Search", true);
         while (searching && !patrolling)
         {
-            //Debug.Log("running second search coroutine -- search");
-            //Debug.DrawLine(playerLastKnownPosition, eyeDirection.transform.position);
             checkInRangeReturn = checkInRange();
             if (checkInRangeReturn != IDLE)
             {
@@ -341,9 +362,6 @@ public class ai_controller : MonoBehaviour
             }
             yield return null;
         }
-
-
-
 
         if (changedToPursuit == false)
         {
@@ -367,39 +385,30 @@ public class ai_controller : MonoBehaviour
     {
         int layerMask = 1 << 2;
         layerMask = ~layerMask;
-        //Debug.Log("Checking target range.");
         Vector3 heading = (target.transform.position - eyeDirection.transform.position).normalized;
         RaycastHit hit;
 
         float dot = Vector3.Dot(eyeDirection.transform.forward, heading);
         float distance = Vector3.Distance(transform.position, target.transform.position);
 
-        //Debug.Log("Dot: " + dot + " Distance: " + distance);
         Debug.DrawRay(eyePosition.position, (target.transform.position - eyePosition.position));
 
         if (Physics.Raycast(eyeDirection.transform.position, (target.transform.position - eyeDirection.transform.position), out hit, maxRange, layerMask))
         {
-            //Debug.Log("Raycast Hit: " + hit.collider.name);
             if (dot > attackAngle && distance < attackRange && hit.transform.tag == "Player")
             {
                 setLastKnownPosition();
-                //Debug.Log("target in attack range.");
                 return ATTACKING;
             }
             else if (dot > viewAngle && distance < maxRange && hit.transform.tag == "Player")
             {
                 setLastKnownPosition();
-                //Debug.Log("target in sight range.");
                 return PURSUING;
             }
             if (hit.transform.tag == "Player")
             {
-                //Debug.Log("raycast hit player.");
                 setLastKnownPosition();
             }
-
-            //if (dot > viewAngle && distance > maxRange && searchNeeded)
-            //    searchNeeded = false;
         }
         return IDLE;
     }
@@ -416,22 +425,33 @@ public class ai_controller : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, rotation, rotationSpeed);
     }
 
+    /// <summary>
+    /// Sets the speed of the navmesh agent to the public creepSpeed value.
+    /// </summary>
     private void setSpeedCreep()
     {
         GetComponent<NavMeshAgent>().speed = creepSpeed;
     }
 
+    /// <summary>
+    /// Sets the speed of the navmesh agent to the public runSpeed value.
+    /// </summary>
     private void setSpeedRun()
     {
         GetComponent<NavMeshAgent>().speed = runSpeed;
     }
 
+    /// <summary>
+    /// Stores the position of the player object.
+    /// </summary>
     private void setLastKnownPosition()
     {
-        //Debug.Log("Setting last known position.");
         playerLastKnownPosition = new Vector3(target.transform.position.x, target.transform.position.y, target.transform.position.z);
     }
 
+    /// <summary>
+    /// resets all of the animation parameters to false
+    /// </summary>
     private void setAllAnimParamsFalse()
     {
         anim.SetBool("Walk", false);
@@ -442,75 +462,37 @@ public class ai_controller : MonoBehaviour
         anim.SetBool("Search", false);
     }
 
+    /// <summary>
+    /// Sets attacking to true.
+    /// </summary>
     public void attackStart()
     {
         attacking = true;
     }
 
+    /// <summary>
+    /// Sets attacking to false.
+    /// </summary>
     public void attackEnd()
     {
-        //Debug.Log("Attacking Player");
-
         attacking = false;
     }
 
+    /// <summary>
+    /// Sets searching to false.
+    /// </summary>
     void endSearch()
     {
-        //Debug.Log("Ending search");
         searching = false;
     }
 
+    /// <summary>
+    /// Draws a wire cube in the scene editor.
+    /// </summary>
     private void OnDrawGizmosSelected()
     {
         // Drawing SightBox
         Gizmos.color = Color.white;
         Gizmos.DrawWireCube(transform.position + (navAgent.velocity * sightOffset), sightRadius);
     } 
-
-    /*
-     * Hi,
-
-Regarding co-routines in Unity: It was my understanding that when a method is called (say method b) the method that called it (say method a) will remain on the stack until method b ends at which point method b will be removed from the stack, and once method a finishes it will also leave the stack (this is what I learned in C++, but my searches online thus far look like this is similar in c#).
-
-In light of that, I have a few questions: If I call a method, say switchState, from a coroutine  (method a), and that method (switchState) in turn calls a different coroutine (method b) will all three methods be on the stack? Further, if I continue calling switchState from the coroutines and alternating back and forth calling method a and b, will all of those method calls stay on the stack? I am not completely clear on what happens with the caller method when the IEnumerator class does "yield return null;". Does the "yield return null" act like a regular return for the caller method and allow the caller method to finish running and be removed from the stack?
-
-PsuedoCode to illustrate:
-
-    switchstate(case)
-    {
-        case a:
-        call method a;
-        case b:
-        call method b;
-    }
-    
-    IEnumerator methodA()
-    {
-        while(condition is true)
-        {
-            //do things
-            yield return null;
-        }
-        switchState(b);
-    }
-    
-    IEnumerator methodB()
-    {
-        while(condition is true)
-        {
-            //do things
-            yield return null;
-        }
-        switchState(a);
-    }
-
-    start()
-    {
-        switchState(a);
-    }
-
-
-I'm concerned that if I use this type of method switching I'll end up with an endlessly growing call stack. I'm not fully understanding how control is passed when using co-routines so any help understanding this would be greatly appreciated.
-     * */
-
 }

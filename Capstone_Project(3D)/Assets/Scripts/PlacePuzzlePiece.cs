@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿//Script Created By Rees Herbert
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -30,6 +31,11 @@ public class PlacePuzzlePiece : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Sets piece to null, and piece in place to false when the player
+    /// has picked up a piece placed in the puzzle. Updates the puzzle 
+    /// controller to reflect this change.
+    /// </summary>
     public void removePiece()
     {
         piece = null;
@@ -37,18 +43,20 @@ public class PlacePuzzlePiece : MonoBehaviour
         puzzleController.updatePiecesInPlaceFalse(pieceNumber);
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// Checks for player input and player presence, if both are true attempts to get an object
+    /// from the player hand. If an object is present creates an instance of the object at the
+    /// the placementZone and changes variables to reflect the placement of the piece.
+    /// </summary>
     void Update()
     {
         if(pieceInPlace == false && playerPresent && Input.GetKeyDown(KeyCode.E))
         {
-            //piece = Instantiate(puzzlePiece, new Vector3(placementZone.transform.position.x, placementZone.transform.position.y, placementZone.transform.position.z), Quaternion.identity);
             GameObject temp = player.GetComponent<RaycstingReesEdit>().GetFromHand();
-            if (temp != null)//player.GetComponentInChildren<RaycstingReesEdit>().ItemSlots[0] != null)
+            if (temp != null)
             {
                 player.GetComponentInParent<PlayerSoundController>().PlayPlace();
                 player.GetComponent<RaycstingReesEdit>().timerOn = true;
-                //piece = Instantiate(player.GetComponentInChildren<RaycstingReesEdit>().ItemSlots[0].GetComponent<AltForm>().altForm, new Vector3(placementZone.transform.position.x, placementZone.transform.position.y, placementZone.transform.position.z), Quaternion.identity);
                 piece = Instantiate(temp.GetComponent<AltForm>().altForm, new Vector3(placementZone.transform.position.x, placementZone.transform.position.y, placementZone.transform.position.z), Quaternion.identity);
                 piece.transform.SetParent(placementZone.transform);
                 Destroy(temp);
@@ -56,24 +64,5 @@ public class PlacePuzzlePiece : MonoBehaviour
                 puzzleController.updatePiecesInPlaceTrue(pieceNumber);
             }
         }
-        /*else if(pieceInPlace == true && playerPresent && Input.GetKeyDown(KeyCode.E))
-        {
-            if(piece != null)
-            {
-                //Destroy(piece);
-                if(piece.transform.parent != null)
-                {
-                    if(piece.transform.parent.tag == "Player")
-                    {
-                        piece = null;
-                        pieceInPlace = false;
-                        puzzleController.updatePiecesInPlaceFalse(pieceNumber);
-                    }
-                }
-                
-            }
-                
-
-        }*/
     }
 }
