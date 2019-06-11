@@ -1,10 +1,13 @@
-﻿//script created by Marcus, edited by Rees
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class RaycstingReesEdit : MonoBehaviour
 {
+    // access the collider object from the raycassting
+    //use that to change that specific pouch bool.
+    //public GameObject pouch;
+    //public Animator pouchAnimator;
     private PlayerSoundController sounds;
     private Animator pouch;
     private GameObject player; // for the player facing
@@ -61,6 +64,7 @@ public class RaycstingReesEdit : MonoBehaviour
             if (hit.collider.gameObject.tag == "Pouch")
             {
                 //save the pouch animator for shutting it off later.
+                //pouch = hit.collider.gameObject.GetComponentInParent<Animator>();
                 pouch = hit.collider.gameObject.GetComponent<Animator>();
                 PocketSlots pouchPocketSlots = hit.collider.gameObject.GetComponent<PocketSlots>();
                 pouchObject = hit.collider.gameObject;
@@ -83,6 +87,7 @@ public class RaycstingReesEdit : MonoBehaviour
                         GameObject temp = ItemSlots[0];
                         ItemSlots[0] = null;
                         pouchPocketSlots.AddtoPocket(temp);
+                        //Destroy(temp);
 
                         //add the item to the itemslots array and remove it from the hand array.
                         //check if the add to pockets it true; if so add the item to that slot

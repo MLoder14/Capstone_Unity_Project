@@ -1,5 +1,4 @@
-﻿//Script Created By Rees Herbert
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +8,9 @@ public class Footsteps_Script : MonoBehaviour
     [FMODUnity.EventRef]
     public string InputFootsteps;
     FMOD.Studio.EventInstance FootstepsEvent;
+    //FMOD.Studio.ParameterInstance WoodParameter;
+    //FMOD.Studio.ParameterInstance MetalParameter;
+    //FMOD.Studio.ParameterInstance GrassParameter;
 
     bool playerismoving;
     public float walkingspeed;
@@ -26,23 +28,26 @@ public class Footsteps_Script : MonoBehaviour
     void Start()
     {
         FootstepsEvent = FMODUnity.RuntimeManager.CreateInstance(InputFootsteps);
+        //FootstepsEvent.getParameter("Wood", out WoodParameter);
+        //FootstepsEvent.getParameter("Metal", out MetalParameter);
+        //FootstepsEvent.getParameter("Grass", out GrassParameter);
         currentSpeed = walkingspeed;
         InvokeRepeating("CallFootsteps", 0, currentSpeed);
     }
 
-    /// <summary>
-    /// Check for player input, (movement and running) and player grounding.
-    /// Plays footstep sounds if player is moving and grounded. Sets FMOD
-    /// event parameters for volume of particular events. Values passed to 
-    /// FMOD are determined by MaterialCheck script.
-    /// </summary>
     void Update()
     {
+        //Debug.Log("TileValue: " + TileValue);
         FootstepsEvent.setParameterByName("TileParameter", TileValue);
         FootstepsEvent.setParameterByName("LightParameter", LightValue);
         FootstepsEvent.setParameterByName("IceParameter", IceValue);
         FootstepsEvent.setParameterByName("SnowParameter", SnowValue);
         FootstepsEvent.setParameterByName("RocksParameter", RocksValue);
+
+        /*if(playerisgrounded == false)
+        {
+            CancelInvoke();
+        }*/
 
         if (Input.GetKey(KeyCode.LeftShift) && runOn == false && playerisgrounded == true)
         {
@@ -97,18 +102,15 @@ public class Footsteps_Script : MonoBehaviour
         playerismoving = false;
     }
 
-    /// <summary>
-    /// Checks what sound collider the player is colliding with, and if
-    /// the player is grounded. Sets appropriate values based on this
-    /// information.
-    /// </summary>
-    /// <param name="MaterialCheck"></param>
     void OnTriggerStay(Collider MaterialCheck)
     {
+        //float FadeSpeed = 10f;
         playerisgrounded = true;
+        //Debug.Log("player is grounded");
 
         if (MaterialCheck.CompareTag("Carpet:Material"))
         {
+            //Debug.Log("On Carpet Material");
             LightValue = 1f;
             IceValue = 0f;
             SnowValue = 0f;
@@ -149,17 +151,64 @@ public class Footsteps_Script : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Sets class variables to reflect player being in the air.
-    /// </summary>
-    /// <param name="MaterialCheck"></param>
     void OnTriggerExit(Collider MaterialCheck)
     {
+        //Debug.Log("Left collider");
         playerisgrounded = false;
         runOn = false;
         walkOn = false;
         LightValue = 0f;
         IceValue = 0f;
         SnowValue = 0f;
+        //CancelInvoke();
     }
 }
+
+
+
+
+/*using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
+
+public class Footsteps_Script : MonoBehaviour
+{
+    [FMODUnity.EventRef]
+    public string inputSound;
+    bool playerIsMoving;
+    public float walkingSpeed;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        InvokeRepeating("CallFootsteps", 0, walkingSpeed);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(CrossPlatformInputManager.GetAxis("Horizontal") >= 0.1f || CrossPlatformInputManager.GetAxis("Horizontal") <= -0.1f || CrossPlatformInputManager.GetAxis("Vertical") >= 0.1f || CrossPlatformInputManager.GetAxis("Vertical") <= 0.1f)
+        {
+            playerIsMoving = true;
+        }
+        else if(CrossPlatformInputManager.GetAxis("Horizontal") == 0 || CrossPlatformInputManager.GetAxis("Vertical") == 0)
+        {
+            playerIsMoving = false;
+        }
+    }
+
+    void CallFootsteps()
+    {
+        if(playerIsMoving == true)
+        {
+            FMODUnity.RuntimeManager.PlayOneShot(inputSound);
+        }
+    }
+
+    private void OnDisable()
+    {
+        playerIsMoving = false;
+    }
+}
+*/

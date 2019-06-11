@@ -1,5 +1,4 @@
-﻿//Script Created By Rees Herbert
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,14 +10,11 @@ public class PuzzleController : MonoBehaviour
 
     private bool activated = false;
 
+    //public GameObject[] puzzlePieces;
     public bool[] piecesInPlace;
 
     public GameObject affectedObject;
-
-    /// <summary>
-    /// Instantiates and FMOD event for sound, and initializes the members fields
-    /// values of the class.
-    /// </summary>
+    // Start is called before the first frame update
     void Start()
     {
         puzzleCompleteSound = FMODUnity.RuntimeManager.CreateInstance(InputCompleteEvent);
@@ -28,13 +24,6 @@ public class PuzzleController : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// This function is meant to be called by a puzzle piece script. Updates
-    /// the pieces in place array to reflect the placement of a puzzle piece.
-    /// Checks to see if all pieces are in place and calls Activate method/plays sound
-    /// if true.
-    /// </summary>
-    /// <param name="index">Index of puzzle piece script calling method</param>
     public void updatePiecesInPlaceTrue(int index)
     {
         bool allTrue = true;
@@ -54,12 +43,6 @@ public class PuzzleController : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// This funciton is meant to be called by a puzzle piece script. Updates
-    /// the pieces in place array to reflect the removal of a puzzle piece.
-    /// calls Deactivate method on puzzle controlee.
-    /// </summary>
-    /// <param name="index">Index of puzzle piece script calling method</param>
     public void updatePiecesInPlaceFalse(int index)
     {
         piecesInPlace[index] = false;
