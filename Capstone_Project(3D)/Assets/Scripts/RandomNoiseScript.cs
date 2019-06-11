@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿//Script Created By Rees Herbert
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,22 +14,10 @@ public class RandomNoiseScript : MonoBehaviour
     private bool finished = false;
     private bool started = false;
     private int[] values;
-    
 
-
-    /*private int DoorsValue;
-    private int BellsValue;
-    private int CreaksValue;
-    private int LaughsValue;
-    private int CupsValue;
-    private int FirePlaceValue;
-    private int MoneyValue;
-    private int PaperValue;
-    private int ScreamingValue;
-    private int ToysValue;
-    private int AssortedValue;*/
-
-    // Start is called before the first frame update
+    /// <summary>
+    /// Initializes values, instantiates and attaches FMOD sound event to parent object.
+    /// </summary>
     void Start()
     {
         NoiseEvent = FMODUnity.RuntimeManager.CreateInstance(InputNoises);
@@ -37,20 +26,25 @@ public class RandomNoiseScript : MonoBehaviour
         values = new int[11];
     }
 
-    // Update is called once per frame
+    /// <summary>
+    /// This function implements a timing functionality. If the current time has
+    /// reached the time to wait variable it will play a sound. Waits until the
+    /// sound has finished before determining a new random time to wait and begins
+    /// counting again.
+    /// </summary>
     void Update()
     {
         currentTime += Time.deltaTime;
         if (currentTime >= timeToWait && started == false)
         {
-            Debug.Log("Started sound coroutine");
+            //Debug.Log("Started sound coroutine");
             started = true;
             finished = false;
             StartCoroutine(PlaySound());
         }
         else if(currentTime >= timeToWait && finished == true)
         {
-            Debug.Log("Ended sound coroutine");
+            //Debug.Log("Ended sound coroutine");
             timeToWait = Random.Range(45.0f, 120.0f);
             currentTime = 0.0f;
             started = false;
@@ -58,10 +52,14 @@ public class RandomNoiseScript : MonoBehaviour
         }
     }
 
+
+    /// <summary>
+    /// Plays randomized sound.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator PlaySound()
     {
         RandomizeValues();
-        //FMODUnity.RuntimeManager.PlayOneShot(InputNoises, transform.position);
         NoiseEvent.start();
 
         yield return new WaitForSeconds(6);
@@ -70,6 +68,10 @@ public class RandomNoiseScript : MonoBehaviour
         yield break;
     }
 
+    /// <summary>
+    /// This function randomly enables or disables volume on event tracks to
+    /// randomize the sound that will be output.
+    /// </summary>
     void RandomizeValues()
     {
         for (int i = 0; i < 11; i++)
@@ -89,6 +91,9 @@ public class RandomNoiseScript : MonoBehaviour
         NoiseEvent.setParameterByName("AssortedParameter", values[10]);
     }
 
+    /// <summary>
+    /// This function mutes all tracks in the FMOD event.
+    /// </summary>
     void MuteAll()
     {
         for (int i = 0; i < 11; i++)
